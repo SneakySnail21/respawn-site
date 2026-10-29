@@ -1,0 +1,38 @@
+/* Login and registration in the Respawn look. */
+@font-face { font-family: "Onest"; src: url("../fonts/onest-cyrillic.woff2") format("woff2"); font-weight: 100 900; font-display: swap; unicode-range: U+0400-045F, U+0490-0491, U+2116; }
+@font-face { font-family: "Onest"; src: url("../fonts/onest-latin.woff2") format("woff2"); font-weight: 100 900; font-display: swap; unicode-range: U+0000-00FF, U+2000-206F; }
+@font-face { font-family: "Unbounded"; src: url("../fonts/unbounded-latin.woff2") format("woff2"); font-weight: 200 900; font-display: swap; }
+
+body.login {
+	background: radial-gradient(90% 60% at 50% 0%, rgba(255, 91, 46, .14), transparent 60%), #0F1114;
+	color: #ECEEF1;
+	font-family: "Onest", system-ui, sans-serif;
+}
+.login h1 a {
+	background: none; width: auto; height: auto; text-indent: 0; overflow: visible;
+	font: 700 26px/1 "Unbounded", sans-serif; text-transform: uppercase; letter-spacing: .02em; color: #ECEEF1;
+	display: inline-flex; align-items: center; gap: 12px; margin-bottom: 8px;
+}
+.login h1 a::before { content: ""; width: 16px; height: 16px; background: #FF5B2E; border-radius: 3px; transform: rotate(45deg); }
+.login h1 { text-align: center; }
+.login form {
+	background: #171A1F; border: 1px solid #2A2F37; border-radius: 10px; box-shadow: none; padding: 26px 24px;
+}
+.login label { color: #C9CED6; font-size: 14px; }
+.login form .input, .login input[type="text"], .login input[type="password"], .login input[type="email"] {
+	background: #0F1114; border: 1px solid #2A2F37; border-radius: 6px; color: #ECEEF1; font-size: 17px; padding: 8px 12px; box-shadow: none;
+}
+.login form .input:focus, .login input:focus { border-color: #FF5B2E; box-shadow: none; outline: none; }
+.wp-core-ui .button-primary {
+	background: #FF5B2E; border: 0; border-radius: 6px; color: #0F1114; font-weight: 600; text-shadow: none; box-shadow: none; min-height: 40px; padding: 0 18px;
+}
+.wp-core-ui .button-primary:hover, .wp-core-ui .button-primary:focus { background: #FF7550; color: #0F1114; box-shadow: none; }
+.wp-core-ui .button-secondary, .login .button.wp-hide-pw { color: #9AA2AE; }
+.login #nav, .login #backtoblog { text-align: center; }
+.login #nav a, .login #backtoblog a, .login .privacy-policy-page-link a { color: #9AA2AE; }
+.login #nav a:hover, .login #backtoblog a:hover { color: #FF5B2E; }
+.login .message, .login .notice, .login .success, .login #login_error {
+	background: #1F232A; color: #ECEEF1; border-left-color: #FF5B2E; box-shadow: none; border-radius: 6px;
+}
+.login .language-switcher { display: none; }
+.login #reg_passmail { color: #9AA2AE; }

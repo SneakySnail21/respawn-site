@@ -1,0 +1,10 @@
+# Local operations (scheduled publisher, logs, temp files) stay on the owner's computer
+autopost/
+*.log
+*.zip
+*.tmp
+node_modules/
+.env
+.env.*
+Thumbs.db
+.DS_Store

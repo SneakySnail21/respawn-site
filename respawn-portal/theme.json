@@ -1,0 +1,42 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"settings": {
+		"appearanceTools": false,
+		"color": {
+			"defaultPalette": false,
+			"defaultGradients": false,
+			"defaultDuotone": false,
+			"custom": false,
+			"customGradient": false,
+			"gradients": [],
+			"duotone": [],
+			"palette": [
+				{ "slug": "bg", "name": "Фон", "color": "#0F1114" },
+				{ "slug": "surface", "name": "Поверхность", "color": "#171A1F" },
+				{ "slug": "ink", "name": "Текст", "color": "#ECEEF1" },
+				{ "slug": "muted", "name": "Приглушённый", "color": "#9AA2AE" },
+				{ "slug": "accent", "name": "Акцент", "color": "#FF5B2E" }
+			]
+		},
+		"typography": {
+			"defaultFontSizes": false,
+			"customFontSize": false,
+			"fontSizes": [
+				{ "slug": "small", "name": "Мелкий", "size": "15px" },
+				{ "slug": "medium", "name": "Обычный", "size": "18px" },
+				{ "slug": "large", "name": "Крупный", "size": "22px" }
+			]
+		},
+		"spacing": {
+			"defaultSpacingSizes": false
+		},
+		"shadow": {
+			"defaultPresets": false
+		},
+		"layout": {
+			"contentSize": "760px",
+			"wideSize": "1100px"
+		}
+	}
+}

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sneakysnail21.github.io/respawn-site/sitemap_index.xml
