@@ -22,6 +22,8 @@ GitHub Pages отдаёт только готовые файлы и не зап�
 
 ## Обновление копии
 
+Копия обновляется автоматически: после каждого утреннего и вечернего выпуска статей (09:00 и 19:00) компьютер владельца пересобирает `docs/` и отправляет изменения сюда. Вручную это делается так:
+
 ```
 cd tools
 node static-export.mjs --public=https://sneakysnail21.github.io/respawn-site --main=https://respawn.1c-freelancer.ru --out=../docs
