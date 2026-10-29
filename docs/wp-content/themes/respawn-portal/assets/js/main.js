@@ -62,10 +62,10 @@
 		try {
 			await navigator.clipboard.writeText(btn.dataset.copy);
 			const text = btn.textContent;
-			btn.textContent = 'Ссылка скопирована';
+			btn.textContent = btn.dataset.copied || 'Ссылка скопирована';
 			setTimeout(() => (btn.textContent = text), 1500);
 		} catch {
-			window.prompt('Ссылка на материал', btn.dataset.copy);
+			window.prompt(btn.dataset.copied ? 'Номер для перевода' : 'Ссылка на материал', btn.dataset.copy);
 		}
 	});
 
