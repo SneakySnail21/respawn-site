@@ -12,16 +12,16 @@
 			root.dataset.theme = next;
 			try { localStorage.setItem('rsp-theme', next); } catch { /* storage blocked */ }
 			const meta = $('meta[name="theme-color"]');
-			if (meta) meta.content = next === 'light' ? '#F4F5F8' : '#0F1114';
+			if (meta) meta.content = next === 'light' ? '#F4F5F0' : '#0B0D11';
 		})
 	);
 
-	// Reveal on scroll: tag the main blocks, then fade them in as they enter the viewport.
-	const revealSel = '.hero-intro > *, .game-card, .thread, .bm-item, .lead, .toplist__item, .review-tile, .feed > .row, .box, .cat-card, .section-head, .related__list li, .comment, .author-card, .verdict, .postnav a, .empty';
+	// Reveal on scroll: a short fade for the main blocks as they enter the viewport.
+	const revealSel = '.lead, .toplist__item, .pulse-card, .review-tile, .feed > .row, .box, .game-card, .thread, .bm-item, .related__list li, .comment, .author-card, .verdict, .postnav a, .empty, .fc-past';
 	const targets = $$(revealSel);
 	targets.forEach((el) => {
 		const sibs = el.parentElement ? [...el.parentElement.children].filter((c) => c.matches(revealSel)) : [el];
-		el.style.setProperty('--i', Math.min(sibs.indexOf(el), 6));
+		el.style.setProperty('--i', Math.min(sibs.indexOf(el), 5));
 		el.setAttribute('data-reveal', '');
 	});
 	if ('IntersectionObserver' in window && !reduce) {
@@ -31,50 +31,10 @@
 				e.target.classList.add('is-in');
 				io.unobserve(e.target);
 			});
-		}, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+		}, { threshold: 0.1, rootMargin: '0px 0px -30px 0px' });
 		targets.forEach((el) => io.observe(el));
 	} else {
 		targets.forEach((el) => el.classList.add('is-in'));
-	}
-
-	// Tilt and spotlight on cards.
-	if (!reduce && window.matchMedia('(hover: hover)').matches) {
-		$$('.lead, .cat-card, .review-tile, .game-card').forEach((card) => {
-			card.setAttribute('data-tilt', '');
-			card.addEventListener('pointermove', (e) => {
-				const r = card.getBoundingClientRect();
-				const x = (e.clientX - r.left) / r.width;
-				const y = (e.clientY - r.top) / r.height;
-				card.style.setProperty('--ry', ((x - 0.5) * 8).toFixed(2) + 'deg');
-				card.style.setProperty('--rx', ((0.5 - y) * 8).toFixed(2) + 'deg');
-				card.style.setProperty('--mx', (x * 100).toFixed(1) + '%');
-				card.style.setProperty('--my', (y * 100).toFixed(1) + '%');
-			});
-			card.addEventListener('pointerleave', () => {
-				card.style.setProperty('--rx', '0deg');
-				card.style.setProperty('--ry', '0deg');
-			});
-		});
-	}
-
-	// Rotating word in the home headline.
-	const rot = $('[data-rotate]');
-	if (rot && !reduce) {
-		let words = [];
-		try { words = JSON.parse(rot.dataset.rotate); } catch { /* ignore */ }
-		let i = 0;
-		if (words.length > 1) {
-			setInterval(() => {
-				rot.classList.remove('is-in');
-				rot.classList.add('is-out');
-				setTimeout(() => {
-					i = (i + 1) % words.length;
-					rot.textContent = words[i];
-					rot.classList.remove('is-out');
-					rot.classList.add('is-in');
-				}, 280);
-			}, 2600);
-		}
 	}
 
 	// Count-up numbers.
@@ -83,7 +43,7 @@
 		const end = Number(el.dataset.count) || 0;
 		if (reduce || end === 0) { el.textContent = end.toLocaleString('ru-RU'); return; }
 		const t0 = performance.now();
-		const dur = 1400;
+		const dur = 1200;
 		const tick = (t) => {
 			const p = Math.min(1, (t - t0) / dur);
 			el.textContent = Math.round(end * (1 - Math.pow(1 - p, 3))).toLocaleString('ru-RU');
