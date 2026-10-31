@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/games/</loc>
-		<lastmod>2026-10-30T02:03:42+00:00</lastmod>
+		<lastmod>2026-10-31T03:13:47+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/games/counter-strike-2/</loc>
@@ -55,6 +55,9 @@
 	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/games/fortnite/</loc>
 		<lastmod>2026-10-29T05:05:02+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/cover-fortnite-d9d345.jpg</image:loc>
+		</image:image>
 	</url>
 	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/games/phantom-blade-zero/</loc>
@@ -101,10 +104,16 @@
 	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/games/marvels-wolverine/</loc>
 		<lastmod>2026-10-29T05:05:32+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/cover-marvels-wolverine-ac6ac3.jpg</image:loc>
+		</image:image>
 	</url>
 	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/games/grand-theft-auto-vi/</loc>
 		<lastmod>2026-10-29T05:05:39+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/cover-grand-theft-auto-vi-e57654.jpg</image:loc>
+		</image:image>
 	</url>
 	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/games/enshrouded/</loc>
@@ -146,6 +155,27 @@
 		<lastmod>2026-10-30T02:03:42+00:00</lastmod>
 		<image:image>
 			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/tomb-raider-legacy-of-atlantis-28def0.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/games/dungeon-inn/</loc>
+		<lastmod>2026-10-31T03:11:23+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/dungeon-inn-419a46.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/games/final-fantasy-xiv-online/</loc>
+		<lastmod>2026-10-31T03:12:48+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/final-fantasy-xiv-online-cb6a31.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/games/star-wars-galactic-racer/</loc>
+		<lastmod>2026-10-31T03:13:47+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/star-wars-galactic-racer-5049dc.jpg</image:loc>
 		</image:image>
 	</url>
 </urlset>
