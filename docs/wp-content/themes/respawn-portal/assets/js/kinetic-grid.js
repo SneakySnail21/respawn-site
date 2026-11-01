@@ -6,9 +6,9 @@
 	const small = window.matchMedia('(max-width: 640px)').matches;
 
 	const CELL = small ? 44 : 55;
-	const INFLUENCE = small ? 170 : 260;
-	const MAX_WARP = small ? 16 : 24;
-	const LERP = 0.08;
+	const INFLUENCE = small ? 230 : 380;
+	const MAX_WARP = small ? 26 : 42;
+	const LERP = 0.16;
 	const NODE_R = 1.6;
 	const NODE_R_ON = 3;
 
@@ -38,8 +38,8 @@
 		const accent = parse(cs.getPropertyValue('--accent'), light ? [85, 130, 10] : [200, 255, 61]);
 		theme = {
 			base: light ? [17, 20, 25] : [255, 255, 255],
-			lineA: light ? 0.06 : 0.07,
-			nodeA: light ? 0.12 : 0.14,
+			lineA: light ? 0.09 : 0.11,
+			nodeA: light ? 0.16 : 0.2,
 			active: accent,
 			lineOn: light ? 0.85 : 0.9,
 		};
@@ -148,7 +148,7 @@
 			ctx.moveTo(px[lit[i]], py[lit[i]]);
 			ctx.lineTo(px[lit[i + 1]], py[lit[i + 1]]);
 			ctx.strokeStyle = mix(theme.base, theme.lineA, theme.active, theme.lineOn, t);
-			ctx.lineWidth = lerp(0.8, 1.5, t);
+			ctx.lineWidth = lerp(0.8, 2.2, t);
 			ctx.stroke();
 		}
 
@@ -187,7 +187,7 @@
 		for (const r of ripples) {
 			ctx.beginPath();
 			ctx.arc(r.x, r.y, Math.max(0, r.radius), 0, 6.2832);
-			ctx.strokeStyle = rgba(theme.active, r.opacity * 0.3);
+			ctx.strokeStyle = rgba(theme.active, r.opacity * 0.45);
 			ctx.lineWidth = 1.5;
 			ctx.stroke();
 		}
@@ -216,8 +216,17 @@
 
 	if (reduce) return;
 
+	let lastRipple = 0, lastX = 0, lastY = 0;
+
 	window.addEventListener('pointermove', (e) => {
 		if (target.x === -9999) { mouse.x = e.clientX; mouse.y = e.clientY; }
+		// A quick sweep of the pointer sends a soft ripple through the grid, so it never sits still under the cursor.
+		const now = performance.now();
+		if (now - lastRipple > 280 && Math.hypot(e.clientX - lastX, e.clientY - lastY) > 60) {
+			ripples.push({ x: e.clientX, y: e.clientY, radius: 0, opacity: 0.6, born: now });
+			if (ripples.length > 6) ripples.shift();
+			lastRipple = now; lastX = e.clientX; lastY = e.clientY;
+		}
 		target.x = e.clientX;
 		target.y = e.clientY;
 		wake();

@@ -70,7 +70,8 @@
 	});
 
 	// Count one view per article per browser session.
-	if (cfg.postId && cfg.rest) {
+	// wp_localize_script turns numbers into strings, so "0" must be compared as a number.
+	if (Number(cfg.postId) > 0 && cfg.rest) {
 		const key = 'rsp-viewed-' + cfg.postId;
 		try {
 			if (!sessionStorage.getItem(key)) {

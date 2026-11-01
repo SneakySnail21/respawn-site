@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/games/</loc>
-		<lastmod>2026-10-31T12:09:22+00:00</lastmod>
+		<lastmod>2026-11-01T04:18:40+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/games/counter-strike-2/</loc>
@@ -190,6 +190,34 @@
 		<lastmod>2026-10-31T12:09:22+00:00</lastmod>
 		<image:image>
 			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/football-manager-27-f7e683.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/games/ace-combat-8-wings-of-theve/</loc>
+		<lastmod>2026-11-01T04:17:45+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/ace-combat-8-wings-of-theve-439694.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/games/probably-stolen/</loc>
+		<lastmod>2026-11-01T04:18:00+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/probably-stolen-cyberpunk-shopkeeper-sim-5f723e.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/games/silver-pines/</loc>
+		<lastmod>2026-11-01T04:18:31+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/silver-pines-97cbda.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/games/the-long-dark/</loc>
+		<lastmod>2026-11-01T04:18:40+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/the-long-dark-7a182c.jpg</image:loc>
 		</image:image>
 	</url>
 </urlset>

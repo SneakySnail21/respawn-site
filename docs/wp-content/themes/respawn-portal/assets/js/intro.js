@@ -80,8 +80,8 @@
 			};
 			ctx.save();
 			ctx.globalAlpha = lineAlpha; ctx.lineCap = 'round'; ctx.lineJoin = 'round';
-			ctx.strokeStyle = ACCENT; ctx.lineWidth = 2.5;
-			ctx.shadowColor = 'rgba(200, 255, 61, .55)'; ctx.shadowBlur = 18;
+			ctx.strokeStyle = ACCENT; ctx.lineWidth = idle ? 3 : 2.5;
+			ctx.shadowColor = 'rgba(200, 255, 61, .55)'; ctx.shadowBlur = idle ? 24 + ptr.energy * 40 : 18;
 			path(); ctx.stroke();
 			if (reveal < 1) {
 				const hx = x0 + (x1 - x0) * (n - 1) / (N - 1), hy = cy + cur[n - 1] * A;
@@ -117,9 +117,45 @@
 		ctx.globalAlpha = 1;
 	};
 	let last = performance.now();
+	// After the intro the line is a live string: it bends toward the pointer, a fast sweep plucks it into a ripple, a click snaps it.
+	const ptr = { x: -1, y: 0, on: false, px: 0, py: 0, energy: 0 };
+	const IDLE_AMP = 0.7;
+	const pull = () => {
+		const A = Math.min(H * 0.24, 150) * IDLE_AMP, cy = H * 0.46;
+		ptr.energy *= 0.94;
+		for (let i = 0; i < N; i++) {
+			const x = i / (N - 1);
+			tgt[i] *= 1 + ptr.energy * 5;
+			if (ptr.on) {
+				const d = (x * W - ptr.x) / (W * 0.14);
+				const k = Math.exp(-d * d);
+				const want = Math.max(-2.4, Math.min(2.4, (ptr.y - cy) / A));
+				tgt[i] += (want - tgt[i]) * k * 0.9;
+			}
+		}
+	};
+	if (!reduce) {
+		window.addEventListener('pointermove', (e) => {
+			if (!idle) return;
+			const r = root.getBoundingClientRect();
+			const inside = e.clientY >= r.top && e.clientY <= r.bottom;
+			ptr.on = inside;
+			if (!inside) return;
+			ptr.x = e.clientX - r.left; ptr.y = e.clientY - r.top;
+			ptr.energy = Math.min(0.5, ptr.energy + Math.hypot(ptr.x - ptr.px, ptr.y - ptr.py) / 900);
+			ptr.px = ptr.x; ptr.py = ptr.y;
+		}, { passive: true });
+		root.addEventListener('pointerleave', () => { ptr.on = false; });
+		root.addEventListener('pointerdown', (e) => {
+			if (!idle || e.target.closest('a, button')) return;
+			const r = root.getBoundingClientRect();
+			const x = e.clientX - r.left, y = H * 0.46 + (cur[Math.round(Math.max(0, Math.min(1, (e.clientX - r.left) / W)) * (N - 1))] || 0) * Math.min(H * 0.24, 150) * IDLE_AMP;
+			burst(x, y, 24); ptr.energy = 0.5;
+		});
+	}
 	const loop = (t) => {
 		const dt = Math.min(50, t - last); last = t; idleT += dt / 1000;
-		if (idle) wave(idleT * 0.8);
+		if (idle) { wave(idleT * 0.8); pull(); }
 		draw(dt);
 		requestAnimationFrame(loop);
 	};
@@ -176,7 +212,7 @@
 		clearAll();
 		Object.values(scenes).forEach((s) => s.classList.remove('is-on'));
 		root.classList.add('is-done');
-		idle = true; amp = 0.35; extent = 1; reveal = 1; lineAlpha = 0.5; logoAlpha = 0;
+		idle = true; amp = 0.7; extent = 1; reveal = 1; lineAlpha = 0.9; logoAlpha = 0;
 		try { sessionStorage.setItem('fl-intro', '1'); } catch { /* storage blocked */ }
 	};
 
@@ -235,7 +271,7 @@
 
 	const quick = () => {
 		root.classList.add('is-done', 'is-quick');
-		idle = true; amp = 0.35; extent = 1; reveal = 1; lineAlpha = 0.5; logoAlpha = 0;
+		idle = true; amp = 0.7; extent = 1; reveal = 1; lineAlpha = 0.9; logoAlpha = 0;
 	};
 
 	root.querySelector('.intro__skip')?.addEventListener('click', finish);

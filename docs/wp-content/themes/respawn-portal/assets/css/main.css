@@ -424,6 +424,8 @@ a.thumb:hover .thumb__img { transform: scale(1.03); }
 .field input[type="text"], .field input[type="email"], .field input[type="password"], .field input[type="url"], .field select { width: 100%; height: 42px; padding: 0 12px; border: 1px solid var(--line); border-radius: var(--r-sm); background: var(--bg); color: var(--ink); }
 .field input[type="file"] { color: var(--muted); font-size: 14px; }
 .field input:focus, .field select:focus { border-color: var(--accent); outline: none; }
+.field textarea { width: 100%; padding: 10px 12px; border: 1px solid var(--line); border-radius: var(--r-sm); background: var(--bg); color: var(--ink); resize: vertical; min-height: 96px; }
+.field textarea:focus { border-color: var(--accent); outline: none; }
 .field__hint { color: var(--muted); font-size: 12px; }
 .field-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
 .check { display: flex; align-items: center; gap: 10px; font-size: 14px; color: var(--ink-2); cursor: pointer; }
@@ -818,3 +820,14 @@ a.thumb:hover .thumb__img { transform: scale(1.03); }
 	*, *::before, *::after { transition: none !important; animation: none !important; scroll-behavior: auto !important; }
 	.js [data-reveal] { opacity: 1; transform: none; }
 }
+.auth__google { color-scheme: light; display: flex; justify-content: center; min-height: 44px; }
+.auth__or { display: flex; align-items: center; gap: 12px; margin: 0; color: var(--muted); font-size: 13px; }
+.auth__or::before, .auth__or::after { content: ""; flex: 1; height: 1px; background: var(--line); }
+
+/* News on the home page sit on a dark translucent panel so the moving grid never cuts into the text. */
+.home .lead-grid, .home .layout { background: rgba(5, 6, 9, .74); -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px); border: 1px solid var(--line); border-radius: var(--r-lg, 16px); padding-inline: 22px; margin-bottom: 20px; }
+.home .lead-grid { margin-top: 20px; }
+.home .layout { padding-block: 22px; }
+[data-theme="light"] .home .lead-grid, [data-theme="light"] .home .layout { background: rgba(255, 255, 255, .8); }
+@media (max-width: 640px) { .home .lead-grid, .home .layout { padding-inline: 14px; border-radius: 12px; } }
+h1.duel__title { font-size: clamp(22px, 3vw, 32px); line-height: 1.2; margin: 0; }

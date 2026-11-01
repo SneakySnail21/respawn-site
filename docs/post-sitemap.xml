@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/all/</loc>
-		<lastmod>2026-10-31T12:10:16+00:00</lastmod>
+		<lastmod>2026-11-01T04:19:21+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/2026/10/27/hunters-moon-ps5-release/</loc>
@@ -25,13 +25,13 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/2026/10/29/phantom-blade-zero-vyshla-na-pc-i-ps5-s-game-vypustila-den-odin-patch/</loc>
+		<loc>https://sneakysnail21.github.io/respawn-site/2026/10/29/castlevania-belmonts-curse-sovety-dlya-novichkov/</loc>
 		<lastmod>2026-10-30T14:02:13+00:00</lastmod>
 		<image:image>
-			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/phantom-blade-zero-f6e86c.jpg</image:loc>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/castlevania-belmonts-curse-2a1862.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/phantom-blade-zero-83760d-1024x576.jpg</image:loc>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/castlevania-belmonts-curse-a31a25-1024x576.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -66,16 +66,6 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/phantom-blade-zero-83760d-1024x576.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/2026/10/29/castlevania-belmonts-curse-sovety-dlya-novichkov/</loc>
-		<lastmod>2026-10-30T14:02:13+00:00</lastmod>
-		<image:image>
-			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/castlevania-belmonts-curse-2a1862.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/castlevania-belmonts-curse-a31a25-1024x576.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -147,6 +137,16 @@
 		</image:image>
 	</url>
 	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/2026/10/29/enshrouded-vyshla-iz-rannego-dostupa-novyy-region-50-y-uroven-i/</loc>
+		<lastmod>2026-10-30T14:02:13+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/enshrouded-522e9a.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/enshrouded-6b41b0-1024x576.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/2026/10/29/liquid-swords-zakryvaetsya-studiya-kristofera-sundberga-ne-perezhila/</loc>
 		<lastmod>2026-10-30T14:02:13+00:00</lastmod>
 		<image:image>
@@ -174,6 +174,16 @@
 		</image:image>
 	</url>
 	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/2026/10/29/phantom-blade-zero-vyshla-na-pc-i-ps5-s-game-vypustila-den-odin-patch/</loc>
+		<lastmod>2026-10-30T14:02:13+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/phantom-blade-zero-f6e86c.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/phantom-blade-zero-83760d-1024x576.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/2026/10/29/obrashchenie-k-polzovatelyam-foruma/</loc>
 		<lastmod>2026-10-30T14:02:13+00:00</lastmod>
 		<image:image>
@@ -181,23 +191,10 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/2026/10/29/enshrouded-vyshla-iz-rannego-dostupa-novyy-region-50-y-uroven-i/</loc>
-		<lastmod>2026-10-30T14:02:13+00:00</lastmod>
-		<image:image>
-			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/enshrouded-522e9a.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/enshrouded-6b41b0-1024x576.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/2026/10/29/mezhsezone-dota-2-posle-ti-falcons-ushli-og-vernula-topson-liquid/</loc>
+		<loc>https://sneakysnail21.github.io/respawn-site/2026/10/30/capcom-za-polgoda-pribyl-vyrosla-na-675-i-derzhitsya-ona-ne-na-odnom/</loc>
 		<lastmod>2026-10-30T14:02:14+00:00</lastmod>
 		<image:image>
-			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/dota-2-1f1b45.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/dota-2-a9cc1b-1024x576.jpg</image:loc>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/cover-capcom-za-polgoda-pribyl-vyrosla-na-675-63676c.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -235,16 +232,6 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/marvel-rivals-a3324c-1024x576.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/2026/10/30/black-desert-posle-patcha-29-oktyabrya-chto-delat-novichku-i/</loc>
-		<lastmod>2026-10-30T14:02:14+00:00</lastmod>
-		<image:image>
-			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/black-desert-574d38.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/black-desert-69fa5d-1024x576.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -296,20 +283,13 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/2026/10/29/cronos-lazarus-vyydet-3-dekabrya-za-999-dollara-prikvel-pro-sledopyta/</loc>
+		<loc>https://sneakysnail21.github.io/respawn-site/2026/10/30/black-desert-posle-patcha-29-oktyabrya-chto-delat-novichku-i/</loc>
 		<lastmod>2026-10-30T14:02:14+00:00</lastmod>
 		<image:image>
-			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/cronos-the-new-dawn-74e175.jpg</image:loc>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/black-desert-574d38.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/cronos-the-new-dawn-213f98-1024x576.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/2026/10/30/capcom-za-polgoda-pribyl-vyrosla-na-675-i-derzhitsya-ona-ne-na-odnom/</loc>
-		<lastmod>2026-10-30T14:02:14+00:00</lastmod>
-		<image:image>
-			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/cover-capcom-za-polgoda-pribyl-vyrosla-na-675-63676c.jpg</image:loc>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/black-desert-69fa5d-1024x576.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -320,6 +300,16 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/phantom-blade-zero-83760d-1024x576.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/2026/10/29/mezhsezone-dota-2-posle-ti-falcons-ushli-og-vernula-topson-liquid/</loc>
+		<lastmod>2026-10-30T14:02:14+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/dota-2-1f1b45.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/dota-2-a9cc1b-1024x576.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -340,17 +330,20 @@
 		</image:image>
 	</url>
 	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/2026/10/29/cronos-lazarus-vyydet-3-dekabrya-za-999-dollara-prikvel-pro-sledopyta/</loc>
+		<lastmod>2026-10-30T14:02:14+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/cronos-the-new-dawn-74e175.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/cronos-the-new-dawn-213f98-1024x576.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/2026/10/29/nvidia-proshchaetsya-s-windows-10-posledniy-drayver-v-oktyabre-a-dlss/</loc>
 		<lastmod>2026-10-30T14:02:14+00:00</lastmod>
 		<image:image>
 			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/zhelezo-i-tekhnologii-d0a22d.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/2026/10/29/dlss-5-stala-vdvoe-bystree-nvidia-uzhala-model-do-118-mln-parametrov/</loc>
-		<lastmod>2026-10-30T14:02:14+00:00</lastmod>
-		<image:image>
-			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/zhelezo-i-tekhnologii-64906a.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -364,23 +357,10 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/2026/10/29/final-fantasy-resonance-sovety-novichku-stagger-libra-videniya-i/</loc>
+		<loc>https://sneakysnail21.github.io/respawn-site/2026/10/29/pgl-masters-bucharest-nemiga-vyshla-v-polufinal-navi-i-vitality/</loc>
 		<lastmod>2026-10-30T14:02:14+00:00</lastmod>
 		<image:image>
-			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/final-fantasy-resonance-af4ca7.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/final-fantasy-resonance-f4fcc3-1024x576.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/2026/10/29/aion-2-nc-oslabila-bossov-v-ekspeditsiyakh-dobavila-khard-rezhim-i/</loc>
-		<lastmod>2026-10-30T14:02:14+00:00</lastmod>
-		<image:image>
-			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/aion-2-51ea36.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/aion-2-89a24f-1024x576.jpg</image:loc>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/cover-pgl-masters-bucharest-nemiga-vyshla-v-po-3b9715.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -394,10 +374,30 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/2026/10/29/pgl-masters-bucharest-nemiga-vyshla-v-polufinal-navi-i-vitality/</loc>
+		<loc>https://sneakysnail21.github.io/respawn-site/2026/10/29/aion-2-nc-oslabila-bossov-v-ekspeditsiyakh-dobavila-khard-rezhim-i/</loc>
 		<lastmod>2026-10-30T14:02:14+00:00</lastmod>
 		<image:image>
-			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/cover-pgl-masters-bucharest-nemiga-vyshla-v-po-3b9715.jpg</image:loc>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/aion-2-51ea36.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/aion-2-89a24f-1024x576.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/2026/10/29/final-fantasy-resonance-sovety-novichku-stagger-libra-videniya-i/</loc>
+		<lastmod>2026-10-30T14:02:14+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/final-fantasy-resonance-af4ca7.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/final-fantasy-resonance-f4fcc3-1024x576.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/2026/10/29/dlss-5-stala-vdvoe-bystree-nvidia-uzhala-model-do-118-mln-parametrov/</loc>
+		<lastmod>2026-10-30T14:02:14+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/zhelezo-i-tekhnologii-64906a.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -472,13 +472,6 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/enshrouded-6b41b0-1024x576.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/2026/10/31/maykl-iz-gta-v-segodnya-v-moskve-gde-vstretit-neda-lyuka-i-chto-budet/</loc>
-		<lastmod>2026-10-31T12:02:44+00:00</lastmod>
-		<image:image>
-			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/ned-luke-gage-skidmore-scaled.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -580,6 +573,124 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/football-manager-27-8157aa-1024x576.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/2026/10/31/maykl-iz-gta-v-segodnya-v-moskve-gde-vstretit-neda-lyuka-i-chto-budet/</loc>
+		<lastmod>2026-10-31T15:25:51+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/ned-luke-gage-skidmore-scaled.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/2026/11/01/furia-vyigrala-pgl-masters-bucharest-32-vtoroy-trofey-za-dve-nedeli-i/</loc>
+		<lastmod>2026-11-01T04:17:28+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/counter-strike-2-ebeaa6.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/counter-strike-2-315762-1024x576.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/2026/11/01/worlds-2026-na-chetvertfinaly-vykhodyat-shest-komand-iz-korei-i/</loc>
+		<lastmod>2026-11-01T04:17:30+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/kibersport-6aaaf8.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/2026/11/01/amd-gotovit-eshche-odno-povyshenie-tsen-na-radeon-videokarty/</loc>
+		<lastmod>2026-11-01T04:18:20+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/cover-amd-gotovit-eshche-odno-povyshenie-tsen-e054b3.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/2026/11/01/rog-xbox-ally-x20-oled-i-novye-gripy-za-lishnie-300-dollarov-stoit-li/</loc>
+		<lastmod>2026-11-01T04:18:32+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/cover-rog-xbox-ally-x20-oled-i-novye-gripy-za-ec192f.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/2026/11/01/ace-combat-8-wings-of-theve-kritiki-stavyat-87-i-sporyat-tolko-o/</loc>
+		<lastmod>2026-11-01T04:18:46+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/ace-combat-8-wings-of-theve-25a20a.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/ace-combat-8-wings-of-theve-dc1039-1024x576.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/2026/11/01/planet-zoo-2-kritiki-stavyat-84-a-igroki-51-kto-prav-v-spore-o/</loc>
+		<lastmod>2026-11-01T04:18:49+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/planet-zoo-2-f68bae.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/planet-zoo-2-b96708-1024x576.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/2026/11/01/silver-pines-kak-ne-ostatsya-bez-deneg-na-sokhranenie-monety-kofe-i/</loc>
+		<lastmod>2026-11-01T04:18:50+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/silver-pines-5a388e.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/silver-pines-5facce-1024x576.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/2026/11/01/star-wars-galactic-racer-kak-ne-vyletet-iz-tura-vybor-spidera-forsazh/</loc>
+		<lastmod>2026-11-01T04:18:52+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/star-wars-galactic-racer-c89211.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/star-wars-galactic-racer-9ee8a7-1024x576.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/2026/11/01/the-long-dark-iron-road-vyshla-v-rannem-dostupe-hinterland-prosit/</loc>
+		<lastmod>2026-11-01T04:19:18+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/the-long-dark-0431fd.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/the-long-dark-0f3ee8-1024x578.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/2026/11/01/phantom-blade-zero-na-slabom-pk-minimum-gtx-1660-ssd-i-145-gb-i/</loc>
+		<lastmod>2026-11-01T04:19:18+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/phantom-blade-zero-52bd22.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/phantom-blade-zero-d30443-1024x576.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/2026/11/01/probably-stolen-idet-na-gtx-650-ti-i-stavit-rekord-tinybuild-redkiy/</loc>
+		<lastmod>2026-11-01T04:19:20+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/probably-stolen-cyberpunk-shopkeeper-sim-2d31d3.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/probably-stolen-cyberpunk-shopkeeper-sim-ba432f-1024x576.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/2026/11/01/deadly-days-roadtrip-vyshla-iz-rannego-dostupa-kak-god-dorabotok/</loc>
+		<lastmod>2026-11-01T04:19:21+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/deadly-days-roadtrip-394318.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/deadly-days-roadtrip-6439d6-1024x576.jpg</image:loc>
 		</image:image>
 	</url>
 </urlset>

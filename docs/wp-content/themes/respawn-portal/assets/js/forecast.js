@@ -7,7 +7,7 @@
 		const row = btn.closest('[data-fc-game]');
 		const card = btn.closest('[data-fc]');
 		if (!row || !card) return;
-		if (!cfg.user) {
+		if (!Number(cfg.user)) {
 			window.location.href = cfg.login || '/wp-login.php';
 			return;
 		}
