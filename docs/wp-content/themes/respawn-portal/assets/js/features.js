@@ -132,7 +132,7 @@
 					live.textContent = '';
 					if (!Array.isArray(items) || !items.length) {
 						const p = document.createElement('p');
-						p.textContent = 'Ничего не нашлось. Попробуйте другое слово.';
+						p.textContent = window.rspT('Ничего не нашлось. Попробуйте другое слово.');
 						live.append(p);
 						return;
 					}
@@ -157,7 +157,7 @@
 			body: JSON.stringify(body),
 		});
 		const data = await res.json();
-		if (!res.ok) throw new Error(data.message || 'Не получилось');
+		if (!res.ok) throw new Error(data.message || window.rspT('Не получилось'));
 		return data;
 	};
 	const flashError = (el, err) => {
@@ -175,9 +175,9 @@
 				const d = await post('bookmark', { id: Number(bm.dataset.bookmarkId) });
 				bm.classList.toggle('is-saved', d.saved);
 				bm.setAttribute('aria-pressed', String(d.saved));
-				bm.title = d.saved ? 'Убрать из закладок' : 'Сохранить в закладки';
+				bm.title = d.saved ? window.rspT('Убрать из закладок') : window.rspT('Сохранить в закладки');
 				const label = bm.querySelector('.bookmark__label');
-				if (label) label.textContent = d.saved ? 'В закладках' : 'В закладки';
+				if (label) label.textContent = d.saved ? window.rspT('В закладках') : window.rspT('В закладки');
 				bm.classList.add('is-pop');
 				setTimeout(() => bm.classList.remove('is-pop'), 450);
 			} catch (err) { flashError(bm, err); } finally { bm.disabled = false; }
@@ -192,7 +192,7 @@
 				const d = await post('subscribe', { term: Number(sub.dataset.subscribe) });
 				sub.classList.toggle('is-on', d.subscribed);
 				sub.setAttribute('aria-pressed', String(d.subscribed));
-				sub.querySelector('.subscribe__label').textContent = d.subscribed ? 'Вы подписаны' : 'Подписаться';
+				sub.querySelector('.subscribe__label').textContent = d.subscribed ? window.rspT('Вы подписаны') : window.rspT('Подписаться');
 				sub.querySelector('.subscribe__count').textContent = d.count;
 			} catch (err) { flashError(sub, err); } finally { sub.disabled = false; }
 			return;
@@ -212,8 +212,8 @@
 					b.setAttribute('aria-pressed', String(n === d.mine));
 				});
 				box.querySelector('.rating__avg').textContent = d.count ? String(d.avg).replace('.', ',') : '—';
-				box.querySelector('.rating__count').textContent = d.count ? 'оценок игроков: ' + d.count : 'оценок пока нет';
-				box.querySelector('.rating__hint').textContent = d.mine ? 'Ваша оценка: ' + d.mine + '. Нажмите ещё раз, чтобы убрать.' : 'Поставьте свою оценку от 1 до 10.';
+				box.querySelector('.rating__count').textContent = d.count ? window.rspT('оценок игроков: ') + d.count : window.rspT('оценок пока нет');
+				box.querySelector('.rating__hint').textContent = d.mine ? window.rspT('Ваша оценка: ') + d.mine + window.rspT('. Нажмите ещё раз, чтобы убрать.') : window.rspT('Поставьте свою оценку от 1 до 10.');
 				box.classList.add('is-pop');
 				setTimeout(() => box.classList.remove('is-pop'), 500);
 			} catch (err) { flashError(star, err); }

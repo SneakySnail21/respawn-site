@@ -1,0 +1,66 @@
+/* Cinematic curtain footer (home page). Port of the CinematicFooter React component to plain CSS. */
+.cf { position: relative; z-index: 0; height: 100vh; height: 100svh; min-height: 560px; width: 100%; clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); }
+.cf__footer {
+	position: fixed; left: 0; bottom: 0; width: 100%; height: 100vh; height: 100svh; min-height: 560px;
+	display: flex; flex-direction: column; justify-content: space-between; overflow: hidden;
+	background: var(--bg); color: var(--ink); font-family: var(--font-display);
+	--pill-a: color-mix(in oklch, var(--ink) 4%, transparent);
+	--pill-b: color-mix(in oklch, var(--ink) 1%, transparent);
+	--pill-line: color-mix(in oklch, var(--ink) 10%, transparent);
+	--pill-shadow: color-mix(in oklch, var(--bg) 60%, transparent);
+}
+.cf__aurora { position: absolute; left: 50%; top: 50%; width: 80vw; height: 60vh; transform: translate(-50%, -50%); border-radius: 50%; filter: blur(80px); pointer-events: none;
+	background: radial-gradient(circle at 50% 50%, color-mix(in oklch, var(--accent) 16%, transparent) 0%, color-mix(in oklch, var(--accent) 5%, transparent) 45%, transparent 70%);
+	animation: cf-breathe 8s ease-in-out infinite alternate; }
+@keyframes cf-breathe { from { transform: translate(-50%, -50%) scale(1); opacity: .6; } to { transform: translate(-50%, -50%) scale(1.1); opacity: 1; } }
+.cf__grid { position: absolute; inset: 0; pointer-events: none; background-size: 60px 60px;
+	background-image: linear-gradient(to right, color-mix(in oklch, var(--ink) 4%, transparent) 1px, transparent 1px), linear-gradient(to bottom, color-mix(in oklch, var(--ink) 4%, transparent) 1px, transparent 1px);
+	-webkit-mask-image: linear-gradient(to bottom, transparent, #000 30%, #000 70%, transparent); mask-image: linear-gradient(to bottom, transparent, #000 30%, #000 70%, transparent); }
+.cf__giant { position: absolute; left: 50%; bottom: -3vh; transform: translateX(-50%); white-space: nowrap; pointer-events: none; user-select: none;
+	font: 900 clamp(90px, 20vw, 400px)/1.1 var(--font-display); letter-spacing: -.02em; padding: 0 .05em; color: transparent;
+	background: linear-gradient(180deg, color-mix(in oklch, var(--accent) 22%, transparent) 0%, color-mix(in oklch, var(--accent) 3%, transparent) 65%, transparent 90%); -webkit-background-clip: text; background-clip: text; will-change: transform, opacity; }
+.cf__marquee { position: absolute; top: 56px; left: 0; width: 100%; overflow: hidden; padding: 14px 0; transform: rotate(-2deg) scale(1.08);
+	border-block: 1px solid var(--line); background: color-mix(in oklch, var(--bg) 70%, transparent); -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px); z-index: 1; }
+.cf__marquee-track { display: flex; width: max-content; animation: cf-marquee 45s linear infinite; font: 700 12px/1 var(--font-mono); letter-spacing: .3em; text-transform: uppercase; color: var(--muted); }
+.cf__marquee-set { display: flex; align-items: center; gap: 28px; padding-right: 28px; white-space: nowrap; }
+.cf__marquee-set i { color: var(--accent); font-style: normal; opacity: .7; }
+@keyframes cf-marquee { to { transform: translateX(-50%); } }
+.cf__center { position: relative; z-index: 2; flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 36px; width: 100%; max-width: 1000px; margin: 64px auto 0; padding: 0 20px; }
+.cf__title { font: 900 clamp(40px, 9vw, 112px)/1 var(--font-display); letter-spacing: -.045em; text-align: center; color: transparent;
+	background: linear-gradient(180deg, var(--ink) 0%, color-mix(in oklch, var(--ink) 40%, transparent) 100%); -webkit-background-clip: text; background-clip: text;
+	filter: drop-shadow(0 0 20px color-mix(in oklch, var(--ink) 15%, transparent)); }
+.cf__links { display: grid; gap: 18px; width: 100%; justify-items: center; }
+.cf__row { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; perspective: 600px; }
+.cf__row--small { gap: 8px; max-width: 780px; }
+.cf__pill { display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 10px 18px; border-radius: 999px; color: var(--muted); font: 600 13px/1 var(--font-display); cursor: pointer;
+	background: linear-gradient(145deg, var(--pill-a), var(--pill-b)); border: 1px solid var(--pill-line);
+	box-shadow: 0 10px 30px -10px var(--pill-shadow), inset 0 1px 1px color-mix(in oklch, var(--ink) 10%, transparent);
+	-webkit-backdrop-filter: blur(16px); backdrop-filter: blur(16px); transition: border-color .3s, color .3s, background .3s, box-shadow .3s; will-change: transform; }
+.cf__pill:hover { color: var(--ink); border-color: color-mix(in oklch, var(--accent) 55%, transparent); background: linear-gradient(145deg, color-mix(in oklch, var(--accent) 12%, transparent), var(--pill-b)); }
+.cf__pill--big { padding: 16px 30px; font-size: 16px; font-weight: 800; color: var(--ink); }
+.cf__bottom { position: relative; z-index: 3; display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 0 clamp(16px, 4vw, 48px) 26px; }
+.cf__copy { color: var(--muted); font: 600 10px/1.5 var(--font-mono); letter-spacing: .08em; text-transform: uppercase; max-width: 34ch; }
+.cf__badge { cursor: pointer; text-decoration: none; font: 700 10px/1.3 var(--font-mono); letter-spacing: .08em; text-transform: uppercase; text-align: center; }
+.cf__top { width: 46px; height: 46px; padding: 0; flex: none; }
+.cf__top svg { width: 18px; height: 18px; transition: transform .3s; }
+.cf__top:hover svg { transform: translateY(-4px); }
+.has-cinema-in .to-top { opacity: 0 !important; pointer-events: none !important; }
+html.js .cf [data-cf-giant], html.js .cf [data-cf-title], html.js .cf [data-cf-links] { opacity: 0; }
+@media (max-width: 720px) {
+	.cf__marquee { top: 44px; }
+	.cf__center { gap: 24px; margin-top: 70px; }
+	.cf__pill--big { padding: 13px 22px; font-size: 14px; }
+	.cf__pill { padding: 9px 14px; font-size: 12px; }
+	.cf__bottom { flex-wrap: wrap; justify-content: center; padding-bottom: 16px; }
+	.cf__badge { display: none; }
+	.cf__copy { max-width: none; text-align: center; order: 2; flex-basis: 100%; }
+}
+@media (max-height: 640px) { .cf__title { font-size: clamp(32px, 7vw, 64px); } .cf__center { gap: 18px; } }
+@media (prefers-reduced-motion: reduce) {
+	.cf__aurora, .cf__marquee-track { animation: none; }
+	html.js .cf [data-cf-giant], html.js .cf [data-cf-title], html.js .cf [data-cf-links] { opacity: 1; }
+}
+
+.cf__tg { gap: 10px; border-color: color-mix(in oklch, #2AABEE 55%, transparent); }
+.cf__tg svg { color: #2AABEE; }
+.langsw--footer a { padding: 12px 12px; }

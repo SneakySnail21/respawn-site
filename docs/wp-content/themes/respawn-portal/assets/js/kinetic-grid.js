@@ -1,5 +1,5 @@
-/* Fragline kinetic grid: a fixed canvas behind the whole site. The grid bends toward the pointer, the lines and nodes
- * near it light up in the site's green, and every click sends a ripple through it. Port of the KineticGrid React
+/* Fragline kinetic grid: a fixed canvas behind the whole site. The grid is static; the lines and nodes
+ * near the pointer light up in the site's green. Port of the KineticGrid React
  * component to plain JS (the theme has no React build). Redraws only while something moves, pauses in background tabs. */
 (() => {
 	const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -7,7 +7,6 @@
 
 	const CELL = small ? 44 : 55;
 	const INFLUENCE = small ? 230 : 380;
-	const MAX_WARP = small ? 26 : 42;
 	const LERP = 0.16;
 	const NODE_R = 1.6;
 	const NODE_R_ON = 3;
@@ -22,7 +21,6 @@
 	let W = 0, H = 0, dpr = 1, raf = 0, awake = true;
 	const mouse = { x: -9999, y: -9999 };
 	const target = { x: -9999, y: -9999 };
-	let ripples = [];
 	let theme = null;
 
 	const parse = (v, fallback) => {
@@ -61,53 +59,19 @@
 		wake();
 	};
 
-	// Where a grid point ends up: pulled toward nothing, pushed away from the pointer and the ripple fronts.
-	const warp = (gx, gy, col, row, cols, rows, now) => {
+	// Grid points stay put; only the highlight strength (0..1) near the pointer is computed.
+	const warp = (gx, gy, col, row, cols, rows) => {
 		const edge = 1.5;
 		const pinC = Math.min(col / edge, (cols - 1 - col) / edge, 1);
 		const pinR = Math.min(row / edge, (rows - 1 - row) / edge, 1);
 		const pin = pinC * pinC * pinR * pinR;
-
-		const dx = gx - mouse.x;
-		const dy = gy - mouse.y;
-		const dist = Math.sqrt(dx * dx + dy * dy);
-		const prox = Math.max(0, 1 - dist / INFLUENCE) * pin;
-
-		let rx = 0, ry = 0;
-		for (const r of ripples) {
-			const rdx = gx - r.x;
-			const rdy = gy - r.y;
-			const rd = Math.sqrt(rdx * rdx + rdy * rdy);
-			const diff = rd - r.radius;
-			if (Math.abs(diff) < 55) {
-				const strength = (1 - Math.abs(diff) / 55) * r.opacity * 18 * pin;
-				const a = Math.atan2(rdy, rdx);
-				const sign = diff < 0 ? -1 : 1;
-				rx -= Math.cos(a) * strength * sign;
-				ry -= Math.sin(a) * strength * sign;
-			}
-		}
-		if (dist < INFLUENCE && dist > 0 && pin > 0) {
-			const t = dist / INFLUENCE;
-			const eased = t < 0.01 ? 0 : (1 - t) * (1 - t) * Math.min(1, dist / 60);
-			const amt = eased * MAX_WARP * pin;
-			const a = Math.atan2(dy, dx);
-			return [gx - Math.cos(a) * amt + rx, gy - Math.sin(a) * amt + ry, prox];
-		}
-		return [gx + rx, gy + ry, prox];
+		const dist = Math.hypot(gx - mouse.x, gy - mouse.y);
+		return [gx, gy, Math.max(0, 1 - dist / INFLUENCE) * pin];
 	};
 
 	const draw = (now) => {
 		ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
 		ctx.clearRect(0, 0, W, H);
-
-		for (let i = ripples.length - 1; i >= 0; i--) {
-			const r = ripples[i];
-			const age = (now - r.born) / 1000;
-			r.radius = Math.max(0, age * 400);
-			r.opacity = Math.max(0, 1 - age * 1.2);
-			if (r.opacity <= 0) ripples.splice(i, 1);
-		}
 
 		const cols = Math.max(2, Math.ceil(W / CELL)) + 1;
 		const rows = Math.max(2, Math.ceil(H / CELL)) + 1;
@@ -184,13 +148,6 @@
 			ctx.fill();
 		}
 
-		for (const r of ripples) {
-			ctx.beginPath();
-			ctx.arc(r.x, r.y, Math.max(0, r.radius), 0, 6.2832);
-			ctx.strokeStyle = rgba(theme.active, r.opacity * 0.45);
-			ctx.lineWidth = 1.5;
-			ctx.stroke();
-		}
 	};
 
 	const loop = (now) => {
@@ -200,7 +157,7 @@
 		mouse.y = lerp(mouse.y, target.y, LERP);
 		draw(now);
 		const settled = Math.abs(mouse.x - target.x) < 0.5 && Math.abs(mouse.y - target.y) < 0.5;
-		awake = !settled || ripples.length > 0;
+		awake = !settled;
 		if (awake) raf = requestAnimationFrame(loop);
 	};
 	function wake() {
@@ -216,25 +173,11 @@
 
 	if (reduce) return;
 
-	let lastRipple = 0, lastX = 0, lastY = 0;
-
 	window.addEventListener('pointermove', (e) => {
 		if (target.x === -9999) { mouse.x = e.clientX; mouse.y = e.clientY; }
-		// A quick sweep of the pointer sends a soft ripple through the grid, so it never sits still under the cursor.
-		const now = performance.now();
-		if (now - lastRipple > 280 && Math.hypot(e.clientX - lastX, e.clientY - lastY) > 60) {
-			ripples.push({ x: e.clientX, y: e.clientY, radius: 0, opacity: 0.6, born: now });
-			if (ripples.length > 6) ripples.shift();
-			lastRipple = now; lastX = e.clientX; lastY = e.clientY;
-		}
 		target.x = e.clientX;
 		target.y = e.clientY;
 		wake();
 	}, { passive: true });
 	document.documentElement.addEventListener('pointerleave', () => { target.x = -9999; target.y = -9999; mouse.x = -9999; mouse.y = -9999; wake(); });
-	window.addEventListener('pointerdown', (e) => {
-		ripples.push({ x: e.clientX, y: e.clientY, radius: 0, opacity: 1, born: performance.now() });
-		if (ripples.length > 6) ripples.shift();
-		wake();
-	}, { passive: true });
 })();

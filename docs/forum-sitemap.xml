@@ -1,159 +1,343 @@
 <?xml version="1.0" encoding="UTF-8"?><urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/forums/</loc>
-		<lastmod>2026-11-01T04:18:40+00:00</lastmod>
+		<lastmod>2026-11-01T12:43:24+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/news-industry/</loc>
-		<lastmod>2026-10-28T14:04:11+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/respawn-discussions/</loc>
-		<lastmod>2026-10-28T14:04:11+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/esports/</loc>
-		<lastmod>2026-10-28T14:04:11+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/find-party/</loc>
-		<lastmod>2026-10-28T14:04:11+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/hardware-tech/</loc>
-		<lastmod>2026-10-28T14:04:11+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/games-guides/</loc>
-		<lastmod>2026-10-28T14:04:11+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/games/</loc>
-		<lastmod>2026-10-29T05:04:11+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/games/counter-strike-2/</loc>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/ru/games/counter-strike-2/</loc>
 		<lastmod>2026-10-29T05:04:32+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/games/dota-2/</loc>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/ru/games/dota-2/</loc>
 		<lastmod>2026-10-29T05:04:34+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/games/pubg-battlegrounds/</loc>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/ru/games/pubg-battlegrounds/</loc>
 		<lastmod>2026-10-29T05:04:36+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/games/arc-raiders/</loc>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/ru/games/arc-raiders/</loc>
 		<lastmod>2026-10-29T05:04:47+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/games/apex-legends/</loc>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/ru/games/apex-legends/</loc>
 		<lastmod>2026-10-29T05:04:49+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/games/marvel-rivals/</loc>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/ru/games/marvel-rivals/</loc>
 		<lastmod>2026-10-29T05:04:52+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/games/rust/</loc>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/ru/games/rust/</loc>
 		<lastmod>2026-10-29T05:05:00+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/games/fortnite/</loc>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/ru/games/phantom-blade-zero/</loc>
 		<lastmod>2026-10-29T05:05:03+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/games/phantom-blade-zero/</loc>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/ru/games/fortnite/</loc>
 		<lastmod>2026-10-29T05:05:03+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/games/call-of-duty-modern-warfare-4/</loc>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/ru/games/call-of-duty-modern-warfare-4/</loc>
 		<lastmod>2026-10-29T05:05:14+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/games/gears-of-war-e-day/</loc>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/ru/games/gears-of-war-e-day/</loc>
 		<lastmod>2026-10-29T05:05:16+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/games/aion-2/</loc>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/ru/games/aion-2/</loc>
 		<lastmod>2026-10-29T05:05:18+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/games/control-resonant/</loc>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/ru/games/control-resonant/</loc>
 		<lastmod>2026-10-29T05:05:28+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/games/onimusha-way-of-the-sword/</loc>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/ru/games/onimusha-way-of-the-sword/</loc>
 		<lastmod>2026-10-29T05:05:31+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/games/marvels-wolverine/</loc>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/ru/games/marvels-wolverine/</loc>
 		<lastmod>2026-10-29T05:05:32+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/games/grand-theft-auto-vi/</loc>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/ru/games/grand-theft-auto-vi/</loc>
 		<lastmod>2026-10-29T05:05:39+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/games/enshrouded/</loc>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/ru/games/enshrouded/</loc>
 		<lastmod>2026-10-29T10:09:22+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/games/cronos-the-new-dawn/</loc>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/ru/games/cronos-the-new-dawn/</loc>
 		<lastmod>2026-10-29T12:02:48+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/games/final-fantasy-resonance/</loc>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/ru/games/final-fantasy-resonance/</loc>
 		<lastmod>2026-10-29T12:03:12+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/games/stalzone/</loc>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/ru/games/stalzone/</loc>
 		<lastmod>2026-10-29T12:03:48+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/games/castlevania-belmonts-curse/</loc>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/ru/games/castlevania-belmonts-curse/</loc>
 		<lastmod>2026-10-30T02:02:36+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/games/tomb-raider-legacy-of-atlantis/</loc>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/ru/games/tomb-raider-legacy-of-atlantis/</loc>
 		<lastmod>2026-10-30T02:03:42+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/games/dungeon-inn/</loc>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/ru/games/dungeon-inn/</loc>
 		<lastmod>2026-10-31T03:11:23+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/games/final-fantasy-xiv-online/</loc>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/ru/games/final-fantasy-xiv-online/</loc>
 		<lastmod>2026-10-31T03:12:48+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/games/star-wars-galactic-racer/</loc>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/ru/games/star-wars-galactic-racer/</loc>
 		<lastmod>2026-10-31T03:13:47+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/games/the-wolf-among-us-remastered/</loc>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/ru/games/the-wolf-among-us-remastered/</loc>
 		<lastmod>2026-10-31T12:07:48+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/games/football-manager-27/</loc>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/ru/games/football-manager-27/</loc>
 		<lastmod>2026-10-31T12:09:22+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/games/ace-combat-8-wings-of-theve/</loc>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/ru/games/ace-combat-8-wings-of-theve/</loc>
 		<lastmod>2026-11-01T04:17:45+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/games/probably-stolen/</loc>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/ru/games/probably-stolen/</loc>
 		<lastmod>2026-11-01T04:18:00+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/games/silver-pines/</loc>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/ru/games/silver-pines/</loc>
 		<lastmod>2026-11-01T04:18:31+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/games/the-long-dark/</loc>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/ru/games/the-long-dark/</loc>
 		<lastmod>2026-11-01T04:18:40+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/en/games-guides-en/</loc>
+		<lastmod>2026-11-01T10:22:33+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/ru/news-industry/</loc>
+		<lastmod>2026-11-01T10:22:33+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/en/news-industry-en/</loc>
+		<lastmod>2026-11-01T10:22:33+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/en/hardware-tech-en/</loc>
+		<lastmod>2026-11-01T10:22:33+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/en/find-party-en/</loc>
+		<lastmod>2026-11-01T10:22:33+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/en/esports-en/</loc>
+		<lastmod>2026-11-01T10:22:33+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/en/games-en/</loc>
+		<lastmod>2026-11-01T10:22:33+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/en/games-en/the-long-dark-en/</loc>
+		<lastmod>2026-11-01T10:22:33+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/en/games-en/silver-pines-en/</loc>
+		<lastmod>2026-11-01T10:22:33+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/en/</loc>
+		<lastmod>2026-11-01T10:22:33+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/en/respawn-discussions-en/</loc>
+		<lastmod>2026-11-01T10:22:33+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/ru/respawn-discussions/</loc>
+		<lastmod>2026-11-01T10:22:33+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/ru/games-guides/</loc>
+		<lastmod>2026-11-01T10:22:33+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/ru/hardware-tech/</loc>
+		<lastmod>2026-11-01T10:22:33+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/ru/find-party/</loc>
+		<lastmod>2026-11-01T10:22:33+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/ru/esports/</loc>
+		<lastmod>2026-11-01T10:22:33+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/ru/games/</loc>
+		<lastmod>2026-11-01T10:22:33+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/ru/</loc>
+		<lastmod>2026-11-01T10:22:33+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/en/games-en/probably-stolen-en/</loc>
+		<lastmod>2026-11-01T10:22:34+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/en/games-en/ace-combat-8-wings-of-theve-en/</loc>
+		<lastmod>2026-11-01T10:22:34+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/en/games-en/football-manager-27-en/</loc>
+		<lastmod>2026-11-01T10:22:34+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/en/games-en/the-wolf-among-us-remastered-en/</loc>
+		<lastmod>2026-11-01T10:22:34+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/en/games-en/star-wars-galactic-racer-en/</loc>
+		<lastmod>2026-11-01T10:22:35+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/en/games-en/final-fantasy-xiv-online-en/</loc>
+		<lastmod>2026-11-01T10:22:35+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/en/games-en/dungeon-inn-en/</loc>
+		<lastmod>2026-11-01T10:22:35+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/en/games-en/tomb-raider-legacy-of-atlantis-en/</loc>
+		<lastmod>2026-11-01T10:22:35+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/en/games-en/castlevania-belmonts-curse-en/</loc>
+		<lastmod>2026-11-01T10:22:36+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/en/games-en/stalzone-en/</loc>
+		<lastmod>2026-11-01T10:22:36+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/en/games-en/final-fantasy-resonance-en/</loc>
+		<lastmod>2026-11-01T10:22:36+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/en/games-en/grand-theft-auto-vi-en/</loc>
+		<lastmod>2026-11-01T10:22:37+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/en/games-en/cronos-the-new-dawn-en/</loc>
+		<lastmod>2026-11-01T10:22:37+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/en/games-en/enshrouded-en/</loc>
+		<lastmod>2026-11-01T10:22:37+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/en/games-en/marvels-wolverine-en/</loc>
+		<lastmod>2026-11-01T10:22:38+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/en/games-en/onimusha-way-of-the-sword-en/</loc>
+		<lastmod>2026-11-01T10:22:38+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/en/games-en/control-resonant-en/</loc>
+		<lastmod>2026-11-01T10:22:39+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/en/games-en/aion-2-en/</loc>
+		<lastmod>2026-11-01T10:22:39+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/en/games-en/gears-of-war-e-day-en/</loc>
+		<lastmod>2026-11-01T10:22:39+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/en/games-en/call-of-duty-modern-warfare-4-en/</loc>
+		<lastmod>2026-11-01T10:22:40+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/en/games-en/phantom-blade-zero-en/</loc>
+		<lastmod>2026-11-01T10:22:40+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/en/games-en/fortnite-en/</loc>
+		<lastmod>2026-11-01T10:22:41+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/en/games-en/rust-en/</loc>
+		<lastmod>2026-11-01T10:22:41+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/en/games-en/marvel-rivals-en/</loc>
+		<lastmod>2026-11-01T10:22:42+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/en/games-en/apex-legends-en/</loc>
+		<lastmod>2026-11-01T10:22:43+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/en/games-en/arc-raiders-en/</loc>
+		<lastmod>2026-11-01T10:22:43+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/en/games-en/pubg-battlegrounds-en/</loc>
+		<lastmod>2026-11-01T10:22:44+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/en/games-en/dota-2-en/</loc>
+		<lastmod>2026-11-01T10:22:44+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/en/games-en/counter-strike-2-en/</loc>
+		<lastmod>2026-11-01T10:22:45+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/ru/games/crimson-desert/</loc>
+		<lastmod>2026-11-01T12:41:24+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/en/games-en/crimson-desert-en/</loc>
+		<lastmod>2026-11-01T12:41:28+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/ru/games/sorry-were-closed/</loc>
+		<lastmod>2026-11-01T12:42:41+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/en/games-en/sorry-were-closed-en/</loc>
+		<lastmod>2026-11-01T12:42:44+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/ru/games/croc-2-kingdom-of-the-gobbos/</loc>
+		<lastmod>2026-11-01T12:43:20+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/en/games-en/croc-2-kingdom-of-the-gobbos-en/</loc>
+		<lastmod>2026-11-01T12:43:24+00:00</lastmod>
 	</url>
 </urlset>
 <!-- XML Sitemap generated by Yoast SEO -->

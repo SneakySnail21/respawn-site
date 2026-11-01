@@ -42,7 +42,7 @@
 				body: JSON.stringify({ type: btn.dataset.likeType, id: Number(btn.dataset.likeId) }),
 			});
 			const data = await res.json();
-			if (!res.ok) throw new Error(data.message || 'Не получилось');
+			if (!res.ok) throw new Error(data.message || window.rspT('Не получилось'));
 			btn.classList.toggle('is-liked', data.liked);
 			btn.setAttribute('aria-pressed', String(data.liked));
 			btn.querySelector('.like__count').textContent = data.count;
@@ -62,10 +62,10 @@
 		try {
 			await navigator.clipboard.writeText(btn.dataset.copy);
 			const text = btn.textContent;
-			btn.textContent = btn.dataset.copied || 'Ссылка скопирована';
+			btn.textContent = btn.dataset.copied || window.rspT('Ссылка скопирована');
 			setTimeout(() => (btn.textContent = text), 1500);
 		} catch {
-			window.prompt(btn.dataset.copied ? 'Номер для перевода' : 'Ссылка на материал', btn.dataset.copy);
+			window.prompt(btn.dataset.copied ? window.rspT('Номер для перевода') : window.rspT('Ссылка на материал'), btn.dataset.copy);
 		}
 	});
 

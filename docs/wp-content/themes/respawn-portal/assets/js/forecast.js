@@ -20,7 +20,7 @@
 			});
 			const data = await res.json();
 			if (res.status === 401) { window.location.href = cfg.login || '/wp-login.php'; return; }
-			if (!res.ok) throw new Error(data.message || 'Не получилось');
+			if (!res.ok) throw new Error(data.message || window.rspT('Не получилось'));
 			const total = data.votes.up + data.votes.down;
 			const up = total ? Math.round((data.votes.up * 100) / total) : 50;
 			row.classList.add('is-voted');

@@ -228,7 +228,7 @@
 
 		// 1. The line is drawn.
 		show('boot');
-		typeInto(scenes.boot.querySelector('[data-type]'), data.boot || 'fragline // линия инициализирована', 900);
+		typeInto(scenes.boot.querySelector('[data-type]'), data.boot || window.rspT('fragline // линия инициализирована'), 900);
 		tween(1400, (p) => { reveal = p; });
 
 		// 2. Live pulse of the top games.
@@ -242,7 +242,7 @@
 				[nameEl, numEl].forEach((el) => { el.classList.remove('is-in'); void el.offsetWidth; el.classList.add('is-in'); });
 			}));
 		} else {
-			at(1500, () => { wave(0); nameEl.textContent = 'Радар'; numEl.textContent = 'собирает данные'; nameEl.classList.add('is-in'); numEl.classList.add('is-in'); });
+			at(1500, () => { wave(0); nameEl.textContent = window.rspT('Радар'); numEl.textContent = window.rspT('собирает данные'); nameEl.classList.add('is-in'); numEl.classList.add('is-in'); });
 		}
 
 		// 3. The line folds into the mark, the name appears.

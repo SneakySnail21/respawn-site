@@ -831,3 +831,58 @@ a.thumb:hover .thumb__img { transform: scale(1.03); }
 [data-theme="light"] .home .lead-grid, [data-theme="light"] .home .layout { background: rgba(255, 255, 255, .8); }
 @media (max-width: 640px) { .home .lead-grid, .home .layout { padding-inline: 14px; border-radius: 12px; } }
 h1.duel__title { font-size: clamp(22px, 3vw, 32px); line-height: 1.2; margin: 0; }
+
+/* Translucent dark plates under news so text stays readable over the background grid */
+.feed { gap: 12px; }
+.row, .review-tile, .toplist {
+	background: rgba(8, 10, 14, .72);
+	border: 1px solid rgba(255, 255, 255, .06);
+	border-radius: var(--r-md);
+	-webkit-backdrop-filter: blur(3px);
+	backdrop-filter: blur(3px);
+}
+.row { padding: 14px; }
+.feed > .row:first-child { padding-top: 14px; border-top: 1px solid rgba(255, 255, 255, .06); }
+.row .thumb { border-radius: calc(var(--r-md) - 4px); }
+.review-tile { padding: 10px 10px 14px; }
+.review-tile .score { top: 20px; left: 20px; }
+.toplist { padding: 16px; }
+.toplist__item:first-of-type { padding-top: 12px; }
+html[data-theme="light"] .row, html[data-theme="light"] .review-tile, html[data-theme="light"] .toplist {
+	background: rgba(255, 255, 255, .78);
+	border-color: rgba(17, 20, 25, .08);
+}
+
+/* Language switcher + Telegram link */
+.langsw { display: inline-flex; border: 1px solid var(--line); border-radius: 999px; overflow: hidden; font: 700 11px/1 var(--font-mono); letter-spacing: .06em; }
+.langsw a { padding: 8px 9px; color: var(--muted); }
+.langsw a:hover { color: var(--ink); }
+.langsw a.is-current { background: var(--accent); color: var(--accent-ink, #0B0D11); }
+.tg-link { color: var(--muted); }
+.tg-link:hover { color: #2AABEE; }
+@media (max-width: 720px) { .site-header__actions .tg-link { display: none; } }
+
+.langsw--nav { display: none; }
+.site-header__burger { flex: none; }
+@media (max-width: 960px) {
+	.langsw--bar { display: none; }
+	.langsw--nav { display: inline-flex; margin: 14px 16px; align-self: flex-start; }
+}
+
+.mail-lang { border: 0; padding: 0; margin: 4px 0 8px; display: flex; flex-wrap: wrap; gap: 4px 20px; }
+.mail-lang legend { font: 600 12px/1.4 var(--font-mono); letter-spacing: .06em; text-transform: uppercase; color: var(--muted); padding: 0; margin-bottom: 6px; }
+
+/* bbPress sticky rows: dark theme instead of the default pale yellow */
+#bbpress-forums ul.sticky, #bbpress-forums ul.super-sticky, #bbpress-forums div.sticky, #bbpress-forums li.sticky, #bbpress-forums .bbp-topics .sticky { background-color: var(--surface-2) !important; }
+#bbpress-forums ul.sticky a, #bbpress-forums ul.super-sticky a { color: var(--ink); }
+
+/* Mobile: language switcher stays in the header bar, the theme toggle moves into the menu */
+.theme-toggle--nav { display: none; }
+@media (max-width: 960px) {
+	.langsw--bar { display: inline-flex; }
+	.site-header__actions .theme-toggle { display: none; }
+	.theme-toggle--nav { display: inline-flex; align-items: center; gap: 10px; margin: 6px 16px 14px; padding: 10px 14px; border: 1px solid var(--line); border-radius: 999px; background: transparent; color: var(--muted); font: 600 14px/1 var(--font-display); cursor: pointer; align-self: flex-start; }
+	.theme-toggle--nav:hover { color: var(--ink); }
+	.theme-toggle--nav .icon { width: 18px; height: 18px; }
+}
+@media (max-width: 420px) { .langsw--bar a { padding: 8px 7px; } .site-header__actions { gap: 4px; } }

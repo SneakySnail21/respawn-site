@@ -1,15 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?><urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/tag/bandai-namco/</loc>
+		<lastmod>2026-11-01T12:42:31+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/en/tag/beginner-tips-en/</loc>
+		<lastmod>2026-10-29T12:04:00+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/en/tag/beginner-s-guide-en/</loc>
+		<lastmod>2026-11-01T04:18:52+00:00</lastmod>
+	</url>
+	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/tag/call-of-duty/</loc>
 		<lastmod>2026-10-31T12:08:02+00:00</lastmod>
 	</url>
 	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/en/tag/call-of-duty-en/</loc>
+		<lastmod>2026-10-31T12:08:02+00:00</lastmod>
+	</url>
+	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/tag/cs2/</loc>
-		<lastmod>2026-11-01T04:17:28+00:00</lastmod>
+		<lastmod>2026-11-01T12:42:53+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/en/tag/cs2-en/</loc>
+		<lastmod>2026-11-01T12:42:53+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/tag/dlc/</loc>
-		<lastmod>2026-11-01T04:19:18+00:00</lastmod>
+		<lastmod>2026-11-01T12:42:14+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/en/tag/dlc-en/</loc>
+		<lastmod>2026-11-01T12:42:14+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/tag/ea/</loc>
+		<lastmod>2026-11-01T12:41:03+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/tag/enshrouded/</loc>
@@ -20,19 +48,43 @@
 		<lastmod>2026-11-01T04:17:28+00:00</lastmod>
 	</url>
 	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/en/tag/guide-en/</loc>
+		<lastmod>2026-10-29T10:10:00+00:00</lastmod>
+	</url>
+	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/tag/keen-games/</loc>
 		<lastmod>2026-10-31T03:14:39+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/tag/konami/</loc>
+		<lastmod>2026-11-01T12:41:55+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/tag/league-of-legends/</loc>
 		<lastmod>2026-11-01T04:17:30+00:00</lastmod>
 	</url>
 	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/en/tag/league-of-legends-en/</loc>
+		<lastmod>2026-11-01T04:17:30+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/en/tag/low-end-pc-en/</loc>
+		<lastmod>2026-11-01T12:42:37+00:00</lastmod>
+	</url>
+	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/tag/metacritic/</loc>
-		<lastmod>2026-11-01T04:18:49+00:00</lastmod>
+		<lastmod>2026-11-01T12:41:55+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/en/tag/metacritic-en/</loc>
+		<lastmod>2026-11-01T12:41:55+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/tag/modern-warfare-4/</loc>
+		<lastmod>2026-10-31T12:08:02+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/en/tag/modern-warfare-4-en/</loc>
 		<lastmod>2026-10-31T12:08:02+00:00</lastmod>
 	</url>
 	<url>
@@ -41,11 +93,23 @@
 	</url>
 	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/tag/nvidia/</loc>
-		<lastmod>2026-10-30T14:02:14+00:00</lastmod>
+		<lastmod>2026-11-01T12:42:37+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/en/tag/nvidia-en/</loc>
+		<lastmod>2026-11-01T12:42:37+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/tag/opencritic/</loc>
 		<lastmod>2026-11-01T04:18:46+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/en/tag/opencritic-en/</loc>
+		<lastmod>2026-11-01T04:18:46+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/en/tag/patch-en/</loc>
+		<lastmod>2026-10-31T12:08:11+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/tag/pgl-masters-bucharest/</loc>
@@ -56,7 +120,15 @@
 		<lastmod>2026-11-01T04:19:18+00:00</lastmod>
 	</url>
 	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/en/tag/phantom-blade-zero-en/</loc>
+		<lastmod>2026-11-01T04:19:18+00:00</lastmod>
+	</url>
+	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/tag/s-game/</loc>
+		<lastmod>2026-10-31T12:07:57+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/en/tag/s-game-en/</loc>
 		<lastmod>2026-10-31T12:07:57+00:00</lastmod>
 	</url>
 	<url>
@@ -69,10 +141,22 @@
 	</url>
 	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/tag/steam/</loc>
-		<lastmod>2026-10-31T03:12:31+00:00</lastmod>
+		<lastmod>2026-11-01T12:43:47+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/en/tag/steam-en/</loc>
+		<lastmod>2026-11-01T12:43:47+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/en/tag/system-requirements-en/</loc>
+		<lastmod>2026-11-01T12:42:37+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/tag/worlds-2026/</loc>
+		<lastmod>2026-11-01T04:17:30+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/en/tag/worlds-2026-en/</loc>
 		<lastmod>2026-11-01T04:17:30+00:00</lastmod>
 	</url>
 	<url>
@@ -89,7 +173,11 @@
 	</url>
 	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/tag/%d0%b3%d0%b0%d0%b9%d0%b4-%d0%b4%d0%bb%d1%8f-%d0%bd%d0%be%d0%b2%d0%b8%d1%87%d0%ba%d0%be%d0%b2/</loc>
-		<lastmod>2026-11-01T04:18:52+00:00</lastmod>
+		<lastmod>2026-11-01T12:42:45+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/tag/%d0%bc%d0%b5%d1%82%d1%80%d0%be%d0%b8%d0%b4%d0%b2%d0%b0%d0%bd%d0%b8%d1%8f/</loc>
+		<lastmod>2026-11-01T12:41:55+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/tag/%d0%bf%d0%b0%d1%82%d1%87/</loc>
@@ -97,15 +185,23 @@
 	</url>
 	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/tag/%d1%81%d0%b8%d1%81%d1%82%d0%b5%d0%bc%d0%bd%d1%8b%d0%b5-%d1%82%d1%80%d0%b5%d0%b1%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d1%8f/</loc>
-		<lastmod>2026-11-01T04:19:18+00:00</lastmod>
+		<lastmod>2026-11-01T12:42:37+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/tag/%d1%81%d0%bb%d0%b0%d0%b1%d1%8b%d0%b5-%d0%bf%d0%ba/</loc>
-		<lastmod>2026-11-01T04:19:20+00:00</lastmod>
+		<lastmod>2026-11-01T12:42:37+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/tag/%d1%81%d0%be%d0%b2%d0%b5%d1%82%d1%8b-%d0%bd%d0%be%d0%b2%d0%b8%d1%87%d0%ba%d0%b0%d0%bc/</loc>
 		<lastmod>2026-10-30T14:02:14+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/tag/%d1%84%d0%b8%d0%bd%d0%b0%d0%bd%d1%81%d0%be%d0%b2%d1%8b%d0%b5-%d1%80%d0%b5%d0%b7%d1%83%d0%bb%d1%8c%d1%82%d0%b0%d1%82%d1%8b/</loc>
+		<lastmod>2026-11-01T12:41:31+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/tag/%d1%85%d0%be%d1%80%d1%80%d0%be%d1%80/</loc>
+		<lastmod>2026-11-01T12:43:47+00:00</lastmod>
 	</url>
 </urlset>
 <!-- XML Sitemap generated by Yoast SEO -->
