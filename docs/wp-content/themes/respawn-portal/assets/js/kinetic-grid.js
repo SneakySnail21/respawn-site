@@ -33,7 +33,7 @@
 	const readTheme = () => {
 		const light = document.documentElement.dataset.theme === 'light';
 		const cs = getComputedStyle(document.documentElement);
-		const accent = parse(cs.getPropertyValue('--accent'), light ? [85, 130, 10] : [200, 255, 61]);
+		const accent = parse(cs.getPropertyValue('--accent'), light ? [42, 131, 0] : [200, 255, 61]);
 		theme = {
 			base: light ? [17, 20, 25] : [255, 255, 255],
 			lineA: light ? 0.09 : 0.11,
@@ -171,7 +171,8 @@
 	document.addEventListener('visibilitychange', () => { if (!document.hidden) wake(); });
 	new MutationObserver(readTheme).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
 
-	if (reduce) return;
+	// Phones and tablets: the grid stays a calm static backdrop (a touch would only flash it once).
+	if (reduce || small || window.matchMedia('(pointer: coarse), (hover: none)').matches) return;
 
 	window.addEventListener('pointermove', (e) => {
 		if (target.x === -9999) { mouse.x = e.clientX; mouse.y = e.clientY; }

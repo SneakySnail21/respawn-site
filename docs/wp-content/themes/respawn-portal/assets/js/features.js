@@ -10,9 +10,9 @@
 		btn.addEventListener('click', () => {
 			const next = root.dataset.theme === 'light' ? 'dark' : 'light';
 			root.dataset.theme = next;
-			try { localStorage.setItem('rsp-theme', next); } catch { /* storage blocked */ }
+			try { localStorage.setItem('rsp-theme-v2', next); } catch { /* storage blocked */ }
 			const meta = $('meta[name="theme-color"]');
-			if (meta) meta.content = next === 'light' ? '#F4F5F0' : '#0B0D11';
+			if (meta) meta.content = next === 'light' ? '#F4F7F5' : '#0B0D11';
 		})
 	);
 

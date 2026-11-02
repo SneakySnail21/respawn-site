@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/games/</loc>
-		<lastmod>2026-11-01T12:43:20+00:00</lastmod>
+		<lastmod>2026-11-02T12:04:33+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/games/counter-strike-2/</loc>
@@ -46,13 +46,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/en/games/arc-raiders-en/</loc>
-		<lastmod>2026-10-29T05:04:47+00:00</lastmod>
-		<image:image>
-			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/arc-raiders-199ffa.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/games/arc-raiders/</loc>
 		<lastmod>2026-10-29T05:04:47+00:00</lastmod>
 		<image:image>
@@ -60,14 +53,21 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/en/games/apex-legends-en/</loc>
+		<loc>https://sneakysnail21.github.io/respawn-site/en/games/arc-raiders-en/</loc>
+		<lastmod>2026-10-29T05:04:47+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/arc-raiders-199ffa.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/games/apex-legends/</loc>
 		<lastmod>2026-10-29T05:04:49+00:00</lastmod>
 		<image:image>
 			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/apex-legends-77bc2d.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/games/apex-legends/</loc>
+		<loc>https://sneakysnail21.github.io/respawn-site/en/games/apex-legends-en/</loc>
 		<lastmod>2026-10-29T05:04:49+00:00</lastmod>
 		<image:image>
 			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/apex-legends-77bc2d.jpg</image:loc>
@@ -102,13 +102,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/games/fortnite/</loc>
-		<lastmod>2026-10-29T05:05:02+00:00</lastmod>
-		<image:image>
-			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/cover-fortnite-d9d345.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/en/games/fortnite-en/</loc>
 		<lastmod>2026-10-29T05:05:02+00:00</lastmod>
 		<image:image>
@@ -116,10 +109,10 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/games/phantom-blade-zero/</loc>
-		<lastmod>2026-10-29T05:05:03+00:00</lastmod>
+		<loc>https://sneakysnail21.github.io/respawn-site/games/fortnite/</loc>
+		<lastmod>2026-10-29T05:05:02+00:00</lastmod>
 		<image:image>
-			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/phantom-blade-zero-9d903c.jpg</image:loc>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/cover-fortnite-d9d345.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -130,14 +123,21 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/games/call-of-duty-modern-warfare-4/</loc>
+		<loc>https://sneakysnail21.github.io/respawn-site/games/phantom-blade-zero/</loc>
+		<lastmod>2026-10-29T05:05:03+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/phantom-blade-zero-9d903c.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/en/games/call-of-duty-modern-warfare-4-en/</loc>
 		<lastmod>2026-10-29T05:05:14+00:00</lastmod>
 		<image:image>
 			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/call-of-duty-modern-warfare-4-617afd.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/en/games/call-of-duty-modern-warfare-4-en/</loc>
+		<loc>https://sneakysnail21.github.io/respawn-site/games/call-of-duty-modern-warfare-4/</loc>
 		<lastmod>2026-10-29T05:05:14+00:00</lastmod>
 		<image:image>
 			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/call-of-duty-modern-warfare-4-617afd.jpg</image:loc>
@@ -158,13 +158,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/en/games/aion-2-en/</loc>
-		<lastmod>2026-10-29T05:05:18+00:00</lastmod>
-		<image:image>
-			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/aion-2-409633.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/games/aion-2/</loc>
 		<lastmod>2026-10-29T05:05:18+00:00</lastmod>
 		<image:image>
@@ -172,14 +165,21 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/en/games/control-resonant-en/</loc>
+		<loc>https://sneakysnail21.github.io/respawn-site/en/games/aion-2-en/</loc>
+		<lastmod>2026-10-29T05:05:18+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/aion-2-409633.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/games/control-resonant/</loc>
 		<lastmod>2026-10-29T05:05:28+00:00</lastmod>
 		<image:image>
 			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/control-resonant-2bdcc9.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/games/control-resonant/</loc>
+		<loc>https://sneakysnail21.github.io/respawn-site/en/games/control-resonant-en/</loc>
 		<lastmod>2026-10-29T05:05:28+00:00</lastmod>
 		<image:image>
 			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/control-resonant-2bdcc9.jpg</image:loc>
@@ -242,14 +242,14 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/games/cronos-the-new-dawn/</loc>
+		<loc>https://sneakysnail21.github.io/respawn-site/en/games/cronos-the-new-dawn-en/</loc>
 		<lastmod>2026-10-29T12:02:48+00:00</lastmod>
 		<image:image>
 			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/cronos-the-new-dawn-f6fb5e.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/en/games/cronos-the-new-dawn-en/</loc>
+		<loc>https://sneakysnail21.github.io/respawn-site/games/cronos-the-new-dawn/</loc>
 		<lastmod>2026-10-29T12:02:48+00:00</lastmod>
 		<image:image>
 			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/cronos-the-new-dawn-f6fb5e.jpg</image:loc>
@@ -284,13 +284,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/en/games/castlevania-belmonts-curse-en/</loc>
-		<lastmod>2026-10-30T02:02:36+00:00</lastmod>
-		<image:image>
-			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/castlevania-belmonts-curse-facc48.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/games/castlevania-belmonts-curse/</loc>
 		<lastmod>2026-10-30T02:02:36+00:00</lastmod>
 		<image:image>
@@ -298,10 +291,10 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/en/games/tomb-raider-legacy-of-atlantis-en/</loc>
-		<lastmod>2026-10-30T02:03:42+00:00</lastmod>
+		<loc>https://sneakysnail21.github.io/respawn-site/en/games/castlevania-belmonts-curse-en/</loc>
+		<lastmod>2026-10-30T02:02:36+00:00</lastmod>
 		<image:image>
-			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/tomb-raider-legacy-of-atlantis-28def0.jpg</image:loc>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/castlevania-belmonts-curse-facc48.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -312,10 +305,10 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/en/games/dungeon-inn-en/</loc>
-		<lastmod>2026-10-31T03:11:23+00:00</lastmod>
+		<loc>https://sneakysnail21.github.io/respawn-site/en/games/tomb-raider-legacy-of-atlantis-en/</loc>
+		<lastmod>2026-10-30T02:03:42+00:00</lastmod>
 		<image:image>
-			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/dungeon-inn-419a46.jpg</image:loc>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/tomb-raider-legacy-of-atlantis-28def0.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -326,14 +319,21 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/en/games/final-fantasy-xiv-online-en/</loc>
+		<loc>https://sneakysnail21.github.io/respawn-site/en/games/dungeon-inn-en/</loc>
+		<lastmod>2026-10-31T03:11:23+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/dungeon-inn-419a46.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/games/final-fantasy-xiv-online/</loc>
 		<lastmod>2026-10-31T03:12:48+00:00</lastmod>
 		<image:image>
 			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/final-fantasy-xiv-online-cb6a31.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/games/final-fantasy-xiv-online/</loc>
+		<loc>https://sneakysnail21.github.io/respawn-site/en/games/final-fantasy-xiv-online-en/</loc>
 		<lastmod>2026-10-31T03:12:48+00:00</lastmod>
 		<image:image>
 			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/final-fantasy-xiv-online-cb6a31.jpg</image:loc>
@@ -354,13 +354,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/en/games/the-wolf-among-us-remastered-en/</loc>
-		<lastmod>2026-10-31T12:07:48+00:00</lastmod>
-		<image:image>
-			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/the-wolf-among-us-remastered-163b5f.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/games/the-wolf-among-us-remastered/</loc>
 		<lastmod>2026-10-31T12:07:48+00:00</lastmod>
 		<image:image>
@@ -368,10 +361,10 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/games/football-manager-27/</loc>
-		<lastmod>2026-10-31T12:09:22+00:00</lastmod>
+		<loc>https://sneakysnail21.github.io/respawn-site/en/games/the-wolf-among-us-remastered-en/</loc>
+		<lastmod>2026-10-31T12:07:48+00:00</lastmod>
 		<image:image>
-			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/football-manager-27-f7e683.jpg</image:loc>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/the-wolf-among-us-remastered-163b5f.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -382,10 +375,10 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/games/ace-combat-8-wings-of-theve/</loc>
-		<lastmod>2026-11-01T04:17:45+00:00</lastmod>
+		<loc>https://sneakysnail21.github.io/respawn-site/games/football-manager-27/</loc>
+		<lastmod>2026-10-31T12:09:22+00:00</lastmod>
 		<image:image>
-			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/ace-combat-8-wings-of-theve-439694.jpg</image:loc>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/football-manager-27-f7e683.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -396,10 +389,10 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/en/games/probably-stolen-en/</loc>
-		<lastmod>2026-11-01T04:18:00+00:00</lastmod>
+		<loc>https://sneakysnail21.github.io/respawn-site/games/ace-combat-8-wings-of-theve/</loc>
+		<lastmod>2026-11-01T04:17:45+00:00</lastmod>
 		<image:image>
-			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/probably-stolen-cyberpunk-shopkeeper-sim-5f723e.jpg</image:loc>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/ace-combat-8-wings-of-theve-439694.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -410,14 +403,21 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/en/games/silver-pines-en/</loc>
+		<loc>https://sneakysnail21.github.io/respawn-site/en/games/probably-stolen-en/</loc>
+		<lastmod>2026-11-01T04:18:00+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/probably-stolen-cyberpunk-shopkeeper-sim-5f723e.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/games/silver-pines/</loc>
 		<lastmod>2026-11-01T04:18:31+00:00</lastmod>
 		<image:image>
 			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/silver-pines-97cbda.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/games/silver-pines/</loc>
+		<loc>https://sneakysnail21.github.io/respawn-site/en/games/silver-pines-en/</loc>
 		<lastmod>2026-11-01T04:18:31+00:00</lastmod>
 		<image:image>
 			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/silver-pines-97cbda.jpg</image:loc>
@@ -480,8 +480,36 @@
 		</image:image>
 	</url>
 	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/games/clive-barkers-hellraiser-revival/</loc>
+		<lastmod>2026-11-02T12:02:45+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/clive-barkers-hellraiser-revival-879191.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/en/games/clive-barkers-hellraiser-revival-en/</loc>
+		<lastmod>2026-11-02T12:02:45+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/clive-barkers-hellraiser-revival-879191.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/games/the-witcher-3-wild-hunt-remastered/</loc>
+		<lastmod>2026-11-02T12:04:33+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/the-witcher-3-wild-hunt-remastered-1617f3.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/en/games/the-witcher-3-wild-hunt-remastered-en/</loc>
+		<lastmod>2026-11-02T12:04:33+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/the-witcher-3-wild-hunt-remastered-1617f3.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/en/games/</loc>
-		<lastmod>2026-11-01T12:43:20+00:00</lastmod>
+		<lastmod>2026-11-02T12:04:33+00:00</lastmod>
 	</url>
 </urlset>
 <!-- XML Sitemap generated by Yoast SEO -->

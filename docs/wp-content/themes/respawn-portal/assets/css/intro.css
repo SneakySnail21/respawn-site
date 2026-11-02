@@ -73,6 +73,7 @@
 .intro__sub { margin: 0; max-width: 56ch; color: #A9B1BD; font-size: clamp(14px, 1.5vw, 17px); }
 .intro__actions { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 10px; margin-top: 8px; }
 .intro__actions .btn { min-height: 44px; padding: 0 20px; font-size: 15px; }
+.intro__final > .intro__go { min-height: 56px; padding: 0 44px; font-size: 18px; border-radius: 12px; margin-top: 10px; }
 .intro__actions .btn--ghost { border-color: #2C3340; color: #EEF1F5; }
 .intro__actions .btn--ghost:hover { border-color: #8B94A3; }
 .intro__replay { background: none; border: 0; color: #8B94A3; font: 500 12px/1 "JetBrains Mono", ui-monospace, monospace; letter-spacing: .08em; text-transform: uppercase; cursor: pointer; padding: 10px 6px; }
