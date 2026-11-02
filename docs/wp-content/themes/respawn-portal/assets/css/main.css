@@ -141,9 +141,9 @@ h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 800; letter-spac
 .nav a:hover { color: var(--ink); background: var(--surface-2); }
 .nav .current-menu-item > a, .nav .current-category-ancestor > a, .nav .current-post-ancestor > a, .nav .current-menu-parent > a { color: var(--ink); box-shadow: inset 0 -2px 0 var(--accent); border-radius: var(--r-sm) var(--r-sm) 0 0; }
 .nav .menu-item-has-children > a::after { content: ""; display: inline-block; width: 6px; height: 6px; margin-left: 7px; border-right: 1.5px solid currentColor; border-bottom: 1.5px solid currentColor; transform: translateY(-2px) rotate(45deg); opacity: .7; }
-.nav .sub-menu { position: absolute; left: 0; top: calc(100% + 6px); min-width: 190px; padding: 6px; margin: 0; list-style: none; background: var(--surface); border: 1px solid var(--line); border-radius: var(--r-md); box-shadow: 0 16px 40px rgba(0, 0, 0, .35); opacity: 0; visibility: hidden; transform: translateY(6px); transition: opacity .15s, transform .15s, visibility 0s .15s; }
+.nav .sub-menu { position: absolute; left: 0; top: calc(100% + 6px); min-width: 230px; padding: 6px; margin: 0; list-style: none; background: var(--surface); border: 1px solid var(--line); border-radius: var(--r-md); box-shadow: 0 16px 40px rgba(0, 0, 0, .35); opacity: 0; visibility: hidden; transform: translateY(6px); transition: opacity .15s, transform .15s, visibility 0s .15s; }
 .nav li:hover > .sub-menu, .nav li:focus-within > .sub-menu { opacity: 1; visibility: visible; transform: none; transition-delay: 0s; }
-.nav .sub-menu a { padding: 8px 10px; }
+.nav .sub-menu a { padding: 8px 10px; white-space: nowrap; }
 .site-header__actions { display: flex; align-items: center; gap: 6px; margin-left: auto; }
 .site-header .btn { min-height: 34px; }
 .usermenu { position: relative; }
