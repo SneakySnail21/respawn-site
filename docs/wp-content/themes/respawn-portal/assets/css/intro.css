@@ -71,14 +71,20 @@
 .intro__mark { width: 28px; height: 28px; color: var(--accent); }
 .intro__slogan { position: relative; width: min(94vw, 920px); margin: 0; font: 800 clamp(40px, 8vw, 104px)/1 "Manrope", sans-serif; letter-spacing: -.045em; }
 .intro__sub { margin: 0; max-width: 56ch; color: #A9B1BD; font-size: clamp(14px, 1.5vw, 17px); }
-.intro__actions { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 10px; margin-top: 8px; }
-.intro__actions .btn { min-height: 44px; padding: 0 20px; font-size: 15px; }
-.intro__final > .intro__go { min-height: 56px; padding: 0 44px; font-size: 18px; border-radius: 12px; margin-top: 10px; }
+/* Two actions only: one main (go to the site) and one quiet (forecast). Replay is a small icon in the corner. */
+.intro__actions { display: flex; justify-content: center; align-items: center; gap: 12px; margin-top: 14px; }
+.intro__actions .btn { min-height: 52px; padding: 0 28px; font-size: 16px; border-radius: 12px; }
+.intro__actions .intro__go { padding: 0 40px; font-size: 17px; }
 .intro__actions .btn--ghost { border-color: #2C3340; color: #EEF1F5; }
 .intro__actions .btn--ghost:hover { border-color: #8B94A3; }
-.intro__replay { background: none; border: 0; color: #8B94A3; font: 500 12px/1 "JetBrains Mono", ui-monospace, monospace; letter-spacing: .08em; text-transform: uppercase; cursor: pointer; padding: 10px 6px; }
-.intro__replay:hover { color: var(--accent); }
-.is-done .intro__final > * { animation: pulsein .7s cubic-bezier(.2, .8, .2, 1) both; }
+/* Support link: quiet text under the buttons, so it is there but does not compete with them */
+.intro__donate { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 0 12px; color: #A9B1BD; font-size: 15px; font-weight: 600; text-decoration: none; border-bottom: 1px solid transparent; }
+.intro__donate::before { content: "♥"; color: var(--accent); }
+.intro__donate:hover, .intro__donate:focus-visible { color: #fff; }
+.is-done .intro__final > .intro__donate { animation-delay: .32s; }
+.intro__replay { position: absolute; top: 14px; right: clamp(12px, 3vw, 32px); width: 44px; height: 44px; display: grid; place-items: center; background: rgba(11, 13, 17, .5); border: 1px solid #2C3340; border-radius: 50%; color: #8B94A3; font-size: 20px; line-height: 1; cursor: pointer; }
+.intro__replay:hover, .intro__replay:focus-visible { color: var(--accent); border-color: var(--accent); }
+.is-done .intro__final > :not(.intro__replay) { animation: pulsein .7s cubic-bezier(.2, .8, .2, 1) both; }
 .is-done .intro__final > :nth-child(2) { animation-delay: .08s; }
 .is-done .intro__final > :nth-child(3) { animation-delay: .16s; }
 .is-done .intro__final > :nth-child(4) { animation-delay: .24s; }
@@ -87,7 +93,7 @@
 .intro__hud { position: absolute; inset: auto 0 0 0; z-index: 5; display: flex; align-items: center; justify-content: flex-end; padding: 0 clamp(16px, 4vw, 48px) 14px; }
 .intro__progress { position: absolute; left: 0; right: 0; bottom: 0; height: 2px; background: rgba(255, 255, 255, .08); }
 .intro__progress span { display: block; height: 100%; width: 100%; background: var(--accent); transform-origin: 0 50%; transform: scaleX(0); }
-.intro__skip { background: rgba(11, 13, 17, .6); border: 1px solid #2C3340; border-radius: 999px; color: #C3C9D3; padding: 8px 14px; font: 500 12px/1 "JetBrains Mono", ui-monospace, monospace; letter-spacing: .06em; cursor: pointer; }
+.intro__skip { min-height: 44px; background: rgba(11, 13, 17, .6); border: 1px solid #2C3340; border-radius: 999px; color: #C3C9D3; padding: 0 18px; font: 500 12px/1 "JetBrains Mono", ui-monospace, monospace; letter-spacing: .06em; cursor: pointer; }
 .intro__skip:hover { color: #fff; border-color: #8B94A3; }
 .is-done .intro__hud { display: none; }
 
@@ -95,8 +101,19 @@
 	.intro { height: clamp(460px, calc(100svh - var(--header-h)), 700px); }
 	.istats { flex-direction: column; gap: 18px; }
 	.ipulse__name { font-size: 22px; }
+	/* Phone: buttons stacked, full width, thumb-sized; skip centred at the bottom */
+	.intro__actions { flex-direction: column; width: min(100%, 320px); gap: 10px; }
+	.intro__actions .btn, .intro__actions .intro__go { width: 100%; padding: 0 20px; }
+	.intro__hud { justify-content: center; padding-bottom: 18px; }
+	.intro__replay { top: 10px; right: 10px; }
 }
+@media (max-height: 600px) { .intro__sub { display: none; } }
 @media (prefers-reduced-motion: reduce) {
-	.intro__stage, .intro__hud { display: none; }
-	.intro__final { opacity: 1; visibility: visible; }
+	.intro:not(.allow-motion) .intro__stage, .intro:not(.allow-motion) .intro__hud { display: none; }
+	.intro:not(.allow-motion) .intro__final { opacity: 1; visibility: visible; }
+	.intro .intro__final > * { animation: none !important; }
 }
+/* Reduced-motion visitors get an explicit button that starts the intro */
+.intro__replay-t { display: none; }
+.is-reduced .intro__replay { width: auto; padding: 0 16px; gap: 8px; border-radius: 999px; color: #C3C9D3; }
+.is-reduced .intro__replay-t { display: inline; font: 500 12px/1 "JetBrains Mono", ui-monospace, monospace; letter-spacing: .06em; }

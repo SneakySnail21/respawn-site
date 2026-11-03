@@ -195,7 +195,7 @@ a.thumb:hover .thumb__img { transform: scale(1.03); }
 .box__more:hover { color: var(--accent); }
 .layout { display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 40px; padding-block: 8px 56px; align-items: start; }
 .layout__main { min-width: 0; display: grid; gap: 40px; align-content: start; }
-.sidebar { position: sticky; top: calc(var(--header-h) + 20px); display: grid; gap: 16px; }
+.sidebar { position: static; display: grid; gap: 16px; align-content: start; } /* was sticky: the e-mail box slid up from the bottom edge while scrolling */
 .box { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r-md); padding: 18px; display: grid; gap: 10px; }
 .box__title { font: 600 11px/1.2 var(--font-mono); text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
 .box--accent { border-color: color-mix(in srgb, var(--accent) 45%, var(--line)); background: linear-gradient(160deg, var(--accent-soft), transparent 60%), var(--surface); }
@@ -760,7 +760,9 @@ a.thumb:hover .thumb__img { transform: scale(1.03); }
 	.nav__list, .nav > ul { flex-direction: column; gap: 0; }
 	.nav a { padding: 12px 8px; font-size: 17px; border-radius: 0; }
 	.nav .current-menu-item > a { box-shadow: inset 3px 0 0 var(--accent); border-radius: 0; }
-	.nav .menu-item-has-children > a::after { display: none; }
+	.nav .menu-item-has-children > a::after { float: right; margin-top: 8px; transition: transform .2s ease; }
+	.nav .menu-item-has-children.is-open > a::after { transform: translateY(2px) rotate(225deg); }
+	.nav .menu-item-has-children:not(.is-open) > .sub-menu { display: none; }
 	.nav .sub-menu { position: static; opacity: 1; visibility: visible; transform: none; min-width: 0; padding: 0 0 0 16px; border: 0; box-shadow: none; background: transparent; transition: none; }
 	.site-header__write span { display: none; }
 	.site-header__write { padding: 0 11px; }

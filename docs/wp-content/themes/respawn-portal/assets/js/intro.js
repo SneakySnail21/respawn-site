@@ -213,7 +213,18 @@
 		Object.values(scenes).forEach((s) => s.classList.remove('is-on'));
 		root.classList.add('is-done');
 		idle = true; amp = 0.7; extent = 1; reveal = 1; lineAlpha = 0.9; logoAlpha = 0;
-		try { sessionStorage.setItem('fl-intro', '1'); } catch { /* storage blocked */ }
+		try { sessionStorage.setItem('fl-intro', String(Date.now())); } catch { /* storage blocked */ }
+	};
+
+	// A tab hidden mid-intro (Yandex Browser preloads and backgrounds pages) must not eat the intro: stop quietly,
+	// do not mark it as seen, and play from the start when the tab is really shown.
+	const abort = () => {
+		playing = false; clearAll();
+		Object.values(scenes).forEach((s) => s.classList.remove('is-on'));
+		scenes.logo?.classList.remove('is-word');
+		progress.style.transform = 'scaleX(0)';
+		cur.fill(0); tgt.fill(0); parts.length = 0;
+		reveal = 0; lineAlpha = 0; logoAlpha = 0;
 	};
 
 	const play = () => {
@@ -275,19 +286,41 @@
 	};
 
 	root.querySelector('.intro__skip')?.addEventListener('click', finish);
-	root.querySelector('.intro__replay')?.addEventListener('click', () => { scenes.logo?.classList.remove('is-word'); play(); });
+	root.querySelector('.intro__replay')?.addEventListener('click', () => {
+		// In reduced-motion mode the visitor asks for the animation explicitly, so it may play.
+		if (reduce) root.classList.add('allow-motion');
+		scenes.logo?.classList.remove('is-word');
+		play();
+	});
 	root.querySelector('.intro__go')?.addEventListener('click', (e) => {
 		e.preventDefault();
 		document.getElementById('explore')?.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'start' });
 	});
-	document.addEventListener('visibilitychange', () => { if (document.hidden && playing) finish(); });
+	// Visible = the user can really see the page (not hidden, not a background prerender).
+	const visible = () => !document.hidden && !document.prerendering;
+	let waiting = false;
+	const tryStart = () => {
+		if (!waiting || !visible()) return;
+		waiting = false;
+		play();
+	};
+	const onHide = () => { if (!visible() && playing) { abort(); waiting = true; } };
+	document.addEventListener('visibilitychange', () => { onHide(); tryStart(); });
+	document.addEventListener('prerenderingchange', tryStart);
 
+	// "Seen" lasts 30 minutes: browsers that restore tabs (Yandex) keep sessionStorage for days.
 	let seen = false;
-	try { seen = !!sessionStorage.getItem('fl-intro'); } catch { /* storage blocked */ }
+	try { const ts = Number(sessionStorage.getItem('fl-intro')) || 0; seen = ts > 1e12 && Date.now() - ts < 30 * 60 * 1000; } catch { /* storage blocked */ }
 	if (reduce) {
-		quick(); idle = false; wave(0); cur.set(tgt); draw(0);
+		// The system asks for less motion (Android "remove animations" / battery saver also set this).
+		// No intro sequence and no pointer effects, but the line keeps a slow, small, calm wave so the screen is not dead.
+		root.classList.add('is-reduced');
+		quick(); amp = 0.4;
+		requestAnimationFrame(loop);
 	} else {
 		requestAnimationFrame(loop);
-		if (seen) quick(); else play();
+		if (seen) quick();
+		else if (visible()) play();
+		else waiting = true;
 	}
 })();

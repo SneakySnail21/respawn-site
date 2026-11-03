@@ -1,0 +1,157 @@
+/* Fragline forum: cards and a clean topic list instead of the old phpBB-style tables.
+ * Scoped to .forum, so profiles and the rest of the site are untouched. Loaded only on bbPress pages and "New topic". */
+
+/* ---- Action bar: members see "New topic", guests see "Sign up" / "Log in" ---- */
+.forum-cta { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin: 16px 0 4px; }
+.forum-cta .btn { min-height: 44px; padding: 0 22px; text-decoration: none; }
+/* page content styles links in the accent colour; keep the button colours */
+.forum-cta a.btn--primary, .forum-cta a.btn--primary:hover { color: var(--accent-ink); text-decoration: none; }
+.forum-cta a.btn--ghost, .forum-cta a.btn--ghost:hover { color: var(--ink); text-decoration: none; }
+.forum-cta--guest { padding: 14px 16px; border: 1px solid var(--line); border-radius: var(--r-md); background: var(--surface); }
+.forum-cta--guest p { flex: 1 1 260px; margin: 0; color: var(--muted); font-size: 14px; }
+
+/* ---- Guests: no giant login form and no "you must log in" bars (the action bar says it once) ---- */
+body:not(.logged-in) .forum #bbpress-forums .bbp-login-form,
+body:not(.logged-in) .forum #bbpress-forums .bbp-template-notice:not(.info):not(.error):not(.warning) { display: none; }
+
+/* ---- Old table headers and footers are gone ---- */
+.forum #bbpress-forums ul.bbp-forums > li.bbp-header,
+.forum #bbpress-forums ul.bbp-forums > li.bbp-footer,
+.forum #bbpress-forums ul.bbp-topics > li.bbp-header,
+.forum #bbpress-forums ul.bbp-topics > li.bbp-footer,
+.forum #bbpress-forums ul.bbp-replies > li.bbp-header,
+.forum #bbpress-forums ul.bbp-replies > li.bbp-footer,
+.forum #bbpress-forums ul.bbp-lead-topic > li.bbp-header,
+.forum #bbpress-forums ul.bbp-lead-topic > li.bbp-footer { display: none; }
+
+/* Reset the floats and percentage widths bbPress puts on every cell */
+.forum #bbpress-forums ul.forum > li,
+.forum #bbpress-forums ul.topic > li { float: none; width: auto; margin: 0; padding: 0; text-align: left; border: 0; }
+
+/* ---- Forum index: one card per section ---- */
+.forum #bbpress-forums ul.bbp-forums { border: 0; background: none; margin: 0 0 22px; }
+.forum #bbpress-forums ul.bbp-forums > li.bbp-body {
+	display: grid; gap: 14px; border: 0; background: none;
+	grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr));
+}
+.forum #bbpress-forums ul.bbp-forums > li.bbp-body > ul.forum {
+	display: grid; align-items: center; gap: 14px 8px; margin: 0; padding: 18px;
+	grid-template-columns: auto auto 1fr;
+	grid-template-areas: "info info info" "tc rc fresh";
+	border: 1px solid var(--line); border-radius: var(--r-md); background: var(--surface);
+	transition: border-color .15s ease, transform .15s ease;
+}
+.forum #bbpress-forums ul.bbp-forums > li.bbp-body > ul.forum:hover { border-color: var(--accent); transform: translateY(-1px); }
+.forum #bbpress-forums li.bbp-forum-info { grid-area: info; }
+.forum #bbpress-forums li.bbp-forum-topic-count { grid-area: tc; }
+.forum #bbpress-forums li.bbp-forum-reply-count { grid-area: rc; }
+.forum #bbpress-forums li.bbp-forum-freshness { grid-area: fresh; justify-self: end; text-align: right; font-size: 12px; line-height: 1.5; color: var(--muted); }
+.forum #bbpress-forums .bbp-forum-title { display: inline-block; font-size: 18px; line-height: 1.25; }
+.forum #bbpress-forums .bbp-forum-content { margin-top: 6px; font-size: 14px; line-height: 1.5; color: var(--muted); }
+.forum #bbpress-forums li.bbp-forum-topic-count,
+.forum #bbpress-forums li.bbp-forum-reply-count,
+.forum #bbpress-forums li.bbp-topic-reply-count { padding: 4px 11px; border-radius: 999px; background: var(--surface-2); color: var(--muted); font-size: 12px; white-space: nowrap; }
+.forum #bbpress-forums li.bbp-forum-topic-count::before { content: "Темы "; }
+.forum #bbpress-forums li.bbp-forum-reply-count::before,
+.forum #bbpress-forums li.bbp-topic-reply-count::before { content: "Ответы "; }
+html[lang^="en"] .forum #bbpress-forums li.bbp-forum-topic-count::before { content: "Topics "; }
+html[lang^="en"] .forum #bbpress-forums li.bbp-forum-reply-count::before,
+html[lang^="en"] .forum #bbpress-forums li.bbp-topic-reply-count::before { content: "Replies "; }
+.forum #bbpress-forums .bbp-topic-meta { margin: 0; }
+
+/* ---- Topic list: a plain list, title on the left, answers and freshness on the right ---- */
+.forum #bbpress-forums ul.bbp-topics { margin: 0 0 22px; border: 1px solid var(--line); border-radius: var(--r-md); background: var(--surface); overflow: hidden; }
+.forum #bbpress-forums ul.bbp-topics > li.bbp-body { border: 0; background: none; }
+.forum #bbpress-forums ul.bbp-topics > li.bbp-body > ul.topic {
+	display: grid; align-items: center; gap: 6px 16px; margin: 0; padding: 14px 18px;
+	grid-template-columns: minmax(0, 1fr) auto 150px;
+	grid-template-areas: "title replies fresh";
+	border: 0; border-top: 1px solid var(--line); background: transparent;
+}
+.forum #bbpress-forums ul.bbp-topics > li.bbp-body > ul.topic:first-child { border-top: 0; }
+.forum #bbpress-forums ul.bbp-topics > li.bbp-body > ul.topic:hover { background: var(--surface-2); }
+.forum #bbpress-forums li.bbp-topic-title { grid-area: title; min-width: 0; }
+.forum #bbpress-forums li.bbp-topic-voice-count { display: none; }
+.forum #bbpress-forums li.bbp-topic-reply-count { grid-area: replies; }
+.forum #bbpress-forums li.bbp-topic-freshness { grid-area: fresh; text-align: right; font-size: 12px; line-height: 1.5; color: var(--muted); }
+.forum #bbpress-forums .bbp-topic-permalink { font-size: 16px; line-height: 1.35; overflow-wrap: anywhere; }
+.forum #bbpress-forums li.bbp-topic-title .bbp-topic-meta { margin-top: 4px; font-size: 12px; color: var(--muted); }
+
+/* ---- A topic and its answers: one card each, author on the left ---- */
+.forum #bbpress-forums ul.bbp-replies, .forum #bbpress-forums ul.bbp-lead-topic { border: 0; background: none; margin: 0 0 18px; }
+.forum #bbpress-forums ul.bbp-replies > li.bbp-body,
+.forum #bbpress-forums ul.bbp-lead-topic > li.bbp-body { border: 0; background: none; }
+.forum #bbpress-forums ul.bbp-replies > li.bbp-body > div,
+.forum #bbpress-forums ul.bbp-lead-topic > li.bbp-body > div {
+	display: grid; margin: 0 0 14px; overflow: hidden;
+	grid-template-columns: 170px minmax(0, 1fr);
+	grid-template-areas: "head head" "author content";
+	border: 1px solid var(--line); border-radius: var(--r-md); background: var(--surface);
+}
+.forum #bbpress-forums div.bbp-reply-header, .forum #bbpress-forums div.bbp-topic-header {
+	grid-area: head; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 6px 12px;
+	margin: 0; padding: 10px 16px; border: 0; border-bottom: 1px solid var(--line); background: var(--surface-2); color: var(--muted); font-size: 12px;
+}
+.forum #bbpress-forums div.bbp-reply-author, .forum #bbpress-forums div.bbp-topic-author {
+	grid-area: author; float: none; width: auto; margin: 0; padding: 18px 10px 18px 16px; text-align: center; font-size: 13px; line-height: 1.4;
+}
+.forum #bbpress-forums div.bbp-reply-author img.avatar, .forum #bbpress-forums div.bbp-topic-author img.avatar { width: 64px; height: 64px; }
+.forum #bbpress-forums div.bbp-reply-content, .forum #bbpress-forums div.bbp-topic-content { grid-area: content; float: none; width: auto; margin: 0; padding: 18px 20px; }
+
+/* ---- The whole card / row is one big link (the title link is stretched over it) ---- */
+.forum #bbpress-forums ul.bbp-forums > li.bbp-body > ul.forum,
+.forum #bbpress-forums ul.bbp-topics > li.bbp-body > ul.topic { position: relative; cursor: pointer; }
+.forum #bbpress-forums a.bbp-forum-title::after,
+.forum #bbpress-forums a.bbp-topic-permalink::after { content: ""; position: absolute; inset: 0; z-index: 1; }
+.forum #bbpress-forums li.bbp-forum-freshness a, .forum #bbpress-forums li.bbp-topic-freshness a,
+.forum #bbpress-forums .bbp-forums-list a, .forum #bbpress-forums li.bbp-topic-title .bbp-topic-meta a { position: relative; z-index: 2; }
+
+/* ---- "Subscribe" and "Favourite" are buttons, not bare links ---- */
+.forum #bbpress-forums > span#subscription-toggle, .forum #bbpress-forums > span#favorite-toggle {
+	float: none; display: inline-block; margin: 0 10px 14px 0; font-size: 0; line-height: 0; /* font-size 0 hides the "&nbsp;|&nbsp;" bbPress prints between them */
+}
+.forum #bbpress-forums a.subscription-toggle, .forum #bbpress-forums a.favorite-toggle {
+	display: inline-flex; align-items: center; min-height: 40px; padding: 0 18px;
+	border: 1px solid var(--line); border-radius: var(--r-sm); background: var(--surface);
+	color: var(--ink); font-size: 14px; font-weight: 600; line-height: 1; text-decoration: none;
+	transition: border-color .15s ease, color .15s ease;
+}
+.forum #bbpress-forums a.subscription-toggle:hover, .forum #bbpress-forums a.favorite-toggle:hover,
+.forum #bbpress-forums a.subscription-toggle:focus-visible, .forum #bbpress-forums a.favorite-toggle:focus-visible { border-color: var(--accent); color: var(--accent); }
+
+/* ---- Forms: new topic and reply ---- */
+.forum #bbpress-forums fieldset.bbp-form { max-width: 860px; padding: 22px; }
+.forum #bbpress-forums fieldset.bbp-form legend { float: left; width: 100%; margin: 0 0 16px; padding: 0; font-size: 20px; line-height: 1.3; }
+.forum #bbpress-forums fieldset.bbp-form legend + div { clear: both; }
+.forum #bbpress-forums fieldset.bbp-form p { margin: 0 0 16px; }
+.forum #bbpress-forums fieldset.bbp-form label { display: inline-block; margin-bottom: 6px; font-size: 14px; font-weight: 600; }
+.forum #bbpress-forums fieldset.bbp-form input[type="text"], .forum #bbpress-forums fieldset.bbp-form textarea, .forum #bbpress-forums fieldset.bbp-form select { width: 100%; max-width: 100%; box-sizing: border-box; min-height: 44px; }
+.forum #bbpress-forums fieldset.bbp-form textarea { min-height: 200px; }
+.forum #bbpress-forums fieldset.bbp-form select { width: auto; min-width: 260px; }
+.forum #bbpress-forums .form-allowed-tags { display: none; } /* "you may use these HTML tags": noise for newcomers */
+.forum #bbpress-forums p:has(#bbp_topic_tags) { display: none; } /* tags are optional noise for newcomers */
+.forum #bbpress-forums #bbp_topic_subscription { width: 18px; height: 18px; margin: 0 8px 0 0; vertical-align: -4px; accent-color: var(--accent); }
+.forum #bbpress-forums #bbp_topic_subscription + label { margin: 0; font-weight: 500; color: var(--muted); }
+.forum #bbpress-forums .bbp-submit-wrapper { margin-top: 8px; }
+.forum #bbpress-forums .bbp-submit-wrapper .button { min-height: 46px; padding: 0 30px; font-size: 16px; }
+
+/* ---- Phone ---- */
+@media (max-width: 640px) {
+	.forum #bbpress-forums ul.bbp-forums > li.bbp-body { grid-template-columns: minmax(0, 1fr); }
+	.forum #bbpress-forums ul.bbp-forums > li.bbp-body > ul.forum { padding: 16px; grid-template-columns: auto auto minmax(0, 1fr); }
+	.forum-cta--guest p { flex-basis: 100%; }
+	.forum #bbpress-forums ul.bbp-topics > li.bbp-body > ul.topic {
+		grid-template-columns: minmax(0, 1fr) auto; padding: 13px 14px;
+		grid-template-areas: "title title" "replies fresh";
+	}
+	.forum #bbpress-forums li.bbp-topic-freshness { justify-self: end; }
+	.forum #bbpress-forums ul.bbp-replies > li.bbp-body > div,
+	.forum #bbpress-forums ul.bbp-lead-topic > li.bbp-body > div { grid-template-columns: 1fr; grid-template-areas: "head" "author" "content"; }
+	.forum #bbpress-forums div.bbp-reply-author, .forum #bbpress-forums div.bbp-topic-author { display: flex; align-items: center; gap: 10px; text-align: left; padding: 12px 16px 0; }
+	.forum #bbpress-forums div.bbp-reply-author img.avatar, .forum #bbpress-forums div.bbp-topic-author img.avatar { width: 36px; height: 36px; }
+	.forum #bbpress-forums div.bbp-reply-author, .forum #bbpress-forums div.bbp-topic-author { flex-wrap: wrap; gap: 2px 10px; }
+	.forum #bbpress-forums div.bbp-reply-author > *, .forum #bbpress-forums div.bbp-topic-author > * { margin: 0; width: auto; }
+	.forum #bbpress-forums .bbp-author-role { font-size: 12px; color: var(--muted); }
+	.forum #bbpress-forums div.bbp-reply-content, .forum #bbpress-forums div.bbp-topic-content { padding: 12px 16px 16px; }
+	.forum-cta .btn { flex: 1 1 140px; }
+}
