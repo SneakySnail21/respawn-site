@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/games/</loc>
-		<lastmod>2026-11-02T12:04:33+00:00</lastmod>
+		<lastmod>2026-11-05T12:04:15+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/games/counter-strike-2/</loc>
@@ -74,14 +74,14 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/en/games/marvel-rivals-en/</loc>
+		<loc>https://sneakysnail21.github.io/respawn-site/games/marvel-rivals/</loc>
 		<lastmod>2026-10-29T05:04:52+00:00</lastmod>
 		<image:image>
 			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/marvel-rivals-782b77.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/games/marvel-rivals/</loc>
+		<loc>https://sneakysnail21.github.io/respawn-site/en/games/marvel-rivals-en/</loc>
 		<lastmod>2026-10-29T05:04:52+00:00</lastmod>
 		<image:image>
 			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/marvel-rivals-782b77.jpg</image:loc>
@@ -158,14 +158,14 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/games/aion-2/</loc>
+		<loc>https://sneakysnail21.github.io/respawn-site/en/games/aion-2-en/</loc>
 		<lastmod>2026-10-29T05:05:18+00:00</lastmod>
 		<image:image>
 			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/aion-2-409633.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/en/games/aion-2-en/</loc>
+		<loc>https://sneakysnail21.github.io/respawn-site/games/aion-2/</loc>
 		<lastmod>2026-10-29T05:05:18+00:00</lastmod>
 		<image:image>
 			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/aion-2-409633.jpg</image:loc>
@@ -186,14 +186,14 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/en/games/onimusha-way-of-the-sword-en/</loc>
+		<loc>https://sneakysnail21.github.io/respawn-site/games/onimusha-way-of-the-sword/</loc>
 		<lastmod>2026-10-29T05:05:31+00:00</lastmod>
 		<image:image>
 			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/onimusha-way-of-the-sword-e59d22.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/games/onimusha-way-of-the-sword/</loc>
+		<loc>https://sneakysnail21.github.io/respawn-site/en/games/onimusha-way-of-the-sword-en/</loc>
 		<lastmod>2026-10-29T05:05:31+00:00</lastmod>
 		<image:image>
 			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/onimusha-way-of-the-sword-e59d22.jpg</image:loc>
@@ -256,14 +256,14 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/en/games/final-fantasy-resonance-en/</loc>
+		<loc>https://sneakysnail21.github.io/respawn-site/games/final-fantasy-resonance/</loc>
 		<lastmod>2026-10-29T12:03:12+00:00</lastmod>
 		<image:image>
 			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/final-fantasy-resonance-22ab5a.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/games/final-fantasy-resonance/</loc>
+		<loc>https://sneakysnail21.github.io/respawn-site/en/games/final-fantasy-resonance-en/</loc>
 		<lastmod>2026-10-29T12:03:12+00:00</lastmod>
 		<image:image>
 			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/final-fantasy-resonance-22ab5a.jpg</image:loc>
@@ -326,14 +326,14 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/games/final-fantasy-xiv-online/</loc>
+		<loc>https://sneakysnail21.github.io/respawn-site/en/games/final-fantasy-xiv-online-en/</loc>
 		<lastmod>2026-10-31T03:12:48+00:00</lastmod>
 		<image:image>
 			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/final-fantasy-xiv-online-cb6a31.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/en/games/final-fantasy-xiv-online-en/</loc>
+		<loc>https://sneakysnail21.github.io/respawn-site/games/final-fantasy-xiv-online/</loc>
 		<lastmod>2026-10-31T03:12:48+00:00</lastmod>
 		<image:image>
 			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/final-fantasy-xiv-online-cb6a31.jpg</image:loc>
@@ -368,14 +368,14 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/en/games/football-manager-27-en/</loc>
+		<loc>https://sneakysnail21.github.io/respawn-site/games/football-manager-27/</loc>
 		<lastmod>2026-10-31T12:09:22+00:00</lastmod>
 		<image:image>
 			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/football-manager-27-f7e683.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/games/football-manager-27/</loc>
+		<loc>https://sneakysnail21.github.io/respawn-site/en/games/football-manager-27-en/</loc>
 		<lastmod>2026-10-31T12:09:22+00:00</lastmod>
 		<image:image>
 			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/football-manager-27-f7e683.jpg</image:loc>
@@ -396,13 +396,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/games/probably-stolen/</loc>
-		<lastmod>2026-11-01T04:18:00+00:00</lastmod>
-		<image:image>
-			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/probably-stolen-cyberpunk-shopkeeper-sim-5f723e.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/en/games/probably-stolen-en/</loc>
 		<lastmod>2026-11-01T04:18:00+00:00</lastmod>
 		<image:image>
@@ -410,14 +403,14 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/games/silver-pines/</loc>
+		<loc>https://sneakysnail21.github.io/respawn-site/en/games/silver-pines-en/</loc>
 		<lastmod>2026-11-01T04:18:31+00:00</lastmod>
 		<image:image>
 			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/silver-pines-97cbda.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/en/games/silver-pines-en/</loc>
+		<loc>https://sneakysnail21.github.io/respawn-site/games/silver-pines/</loc>
 		<lastmod>2026-11-01T04:18:31+00:00</lastmod>
 		<image:image>
 			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/silver-pines-97cbda.jpg</image:loc>
@@ -508,8 +501,29 @@
 		</image:image>
 	</url>
 	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/games/probably-stolen/</loc>
+		<lastmod>2026-11-05T12:03:29+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/probably-stolen-cyberpunk-shopkeeper-sim-5f723e.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/games/cyberpunk-2077/</loc>
+		<lastmod>2026-11-05T12:04:15+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/cyberpunk-2077-a4ad20.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/en/games/cyberpunk-2077-en/</loc>
+		<lastmod>2026-11-05T12:04:15+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/cyberpunk-2077-a4ad20.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/en/games/</loc>
-		<lastmod>2026-11-02T12:04:33+00:00</lastmod>
+		<lastmod>2026-11-05T12:04:15+00:00</lastmod>
 	</url>
 </urlset>
 <!-- XML Sitemap generated by Yoast SEO -->
