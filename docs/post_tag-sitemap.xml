@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/tag/amd/</loc>
+		<lastmod>2026-11-06T02:04:20+00:00</lastmod>
+	</url>
+	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/tag/bandai-namco/</loc>
 		<lastmod>2026-11-01T12:42:31+00:00</lastmod>
 	</url>
@@ -14,6 +18,10 @@
 	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/en/tag/beginner-s-guide-en/</loc>
 		<lastmod>2026-11-01T04:18:52+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/tag/bioware/</loc>
+		<lastmod>2026-11-06T02:04:06+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/tag/call-of-duty/</loc>
@@ -41,11 +49,19 @@
 	</url>
 	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/tag/dlss-5/</loc>
-		<lastmod>2026-11-02T02:19:07+00:00</lastmod>
+		<lastmod>2026-11-06T02:04:12+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/en/tag/dlss-5-en/</loc>
+		<lastmod>2026-11-06T02:04:12+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/tag/ea/</loc>
-		<lastmod>2026-11-01T12:41:03+00:00</lastmod>
+		<lastmod>2026-11-06T02:04:06+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/en/tag/ea-en/</loc>
+		<lastmod>2026-11-06T02:04:06+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/tag/enshrouded/</loc>
@@ -66,6 +82,10 @@
 	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/en/tag/furia-en/</loc>
 		<lastmod>2026-11-02T02:19:27+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/tag/gog/</loc>
+		<lastmod>2026-11-06T02:02:59+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/en/tag/guide-en/</loc>
@@ -129,11 +149,11 @@
 	</url>
 	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/tag/nvidia/</loc>
-		<lastmod>2026-11-02T02:19:07+00:00</lastmod>
+		<lastmod>2026-11-06T02:04:12+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/en/tag/nvidia-en/</loc>
-		<lastmod>2026-11-02T02:19:07+00:00</lastmod>
+		<lastmod>2026-11-06T02:04:12+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/tag/opencritic/</loc>
@@ -166,6 +186,10 @@
 	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/tag/probably-stolen/</loc>
 		<lastmod>2026-11-05T12:04:03+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/tag/radeon/</loc>
+		<lastmod>2026-11-06T02:04:20+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/en/tag/reviews-en/</loc>
