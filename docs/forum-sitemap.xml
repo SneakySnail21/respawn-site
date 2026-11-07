@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/forums/</loc>
-		<lastmod>2026-11-06T12:08:13+00:00</lastmod>
+		<lastmod>2026-11-07T13:21:50+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/en/news-industry-en/</loc>
 		<lastmod>2026-11-01T10:22:33+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/ru/news-industry/</loc>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/ru/respawn-discussions/</loc>
 		<lastmod>2026-11-01T10:22:33+00:00</lastmod>
 	</url>
 	<url>
@@ -32,11 +32,11 @@
 		<lastmod>2026-11-01T10:22:33+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/ru/</loc>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/en/</loc>
 		<lastmod>2026-11-01T10:22:33+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/en/</loc>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/ru/</loc>
 		<lastmod>2026-11-01T10:22:33+00:00</lastmod>
 	</url>
 	<url>
@@ -56,7 +56,7 @@
 		<lastmod>2026-11-01T10:22:33+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/ru/respawn-discussions/</loc>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/ru/news-industry/</loc>
 		<lastmod>2026-11-01T10:22:33+00:00</lastmod>
 	</url>
 	<url>

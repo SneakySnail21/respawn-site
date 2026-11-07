@@ -127,8 +127,10 @@
 				ctl?.abort();
 				ctl = new AbortController();
 				try {
-					const res = await fetch(cfg.wp + 'search?per_page=6&type=post&search=' + encodeURIComponent(q), { signal: ctl.signal });
-					const items = await res.json();
+					const lang = (document.documentElement.lang || 'ru').slice(0, 2) === 'en' ? 'en' : 'ru';
+					const res = await fetch(cfg.rest + 'suggest?lang=' + lang + '&q=' + encodeURIComponent(q), { signal: ctl.signal });
+					const data = await res.json();
+					const items = [...(data.games || []), ...(data.posts || [])];
 					live.textContent = '';
 					if (!Array.isArray(items) || !items.length) {
 						const p = document.createElement('p');
@@ -139,9 +141,18 @@
 					items.forEach((it) => {
 						const a = document.createElement('a');
 						a.href = it.url;
-						const t = document.createElement('div');
-						t.innerHTML = it.title; // REST returns escaped title markup
-						a.append(t.textContent);
+						if (it.kind === 'game') {
+							a.className = 'sl-game';
+							if (it.img) { const im = document.createElement('img'); im.src = it.img; im.alt = ''; im.width = 38; im.height = 56; im.loading = 'lazy'; a.append(im); }
+							const box = document.createElement('span');
+							const lb = document.createElement('em'); lb.textContent = it.label;
+							const nm = document.createElement('b'); nm.textContent = it.title;
+							box.append(lb, nm);
+							if (it.sub) { const sm = document.createElement('small'); sm.textContent = it.sub; box.append(sm); }
+							a.append(box);
+						} else {
+							a.textContent = it.title;
+						}
 						live.append(a);
 					});
 				} catch { /* aborted or offline */ }

@@ -21,12 +21,14 @@
 			const data = await res.json();
 			if (res.status === 401) { window.location.href = cfg.login || '/wp-login.php'; return; }
 			if (!res.ok) throw new Error(data.message || window.rspT('Не получилось'));
-			const total = data.votes.up + data.votes.down;
+			const total = data.votes.up + data.votes.down + (data.votes.same || 0);
 			const up = total ? Math.round((data.votes.up * 100) / total) : 50;
 			row.classList.add('is-voted');
 			row.querySelector(`[data-fc-vote="${data.dir}"]`)?.classList.add('is-mine');
 			row.querySelector('.fc__bar i').style.width = up + '%';
 			row.querySelector('[data-fc-up]').textContent = up + '%';
+			const sp = row.querySelector('[data-fc-same-pct]');
+			if (sp) sp.textContent = (total ? Math.round(((data.votes.same || 0) * 100) / total) : 0) + '%';
 			row.querySelector('[data-fc-total]').textContent = total;
 			const done = card.querySelector('[data-fc-done]');
 			if (done && !data.already) done.textContent = data.done;
