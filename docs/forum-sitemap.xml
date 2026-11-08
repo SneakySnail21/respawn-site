@@ -1,18 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?><urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/forums/</loc>
-		<lastmod>2026-11-08T03:16:46+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/en/news-industry-en/</loc>
-		<lastmod>2026-11-01T10:22:33+00:00</lastmod>
+		<lastmod>2026-11-08T12:03:12+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/ru/respawn-discussions/</loc>
 		<lastmod>2026-11-01T10:22:33+00:00</lastmod>
 	</url>
 	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/ru/news-industry/</loc>
+		<lastmod>2026-11-01T10:22:33+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/ru/games-guides/</loc>
+		<lastmod>2026-11-01T10:22:33+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/ru/hardware-tech/</loc>
+		<lastmod>2026-11-01T10:22:33+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/ru/find-party/</loc>
+		<lastmod>2026-11-01T10:22:33+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/ru/esports/</loc>
+		<lastmod>2026-11-01T10:22:33+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/ru/</loc>
+		<lastmod>2026-11-01T10:22:33+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/en/</loc>
+		<lastmod>2026-11-01T10:22:33+00:00</lastmod>
+	</url>
+	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/en/respawn-discussions-en/</loc>
+		<lastmod>2026-11-01T10:22:33+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/en/news-industry-en/</loc>
 		<lastmod>2026-11-01T10:22:33+00:00</lastmod>
 	</url>
 	<url>
@@ -32,39 +60,11 @@
 		<lastmod>2026-11-01T10:22:33+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/en/</loc>
-		<lastmod>2026-11-01T10:22:33+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/ru/</loc>
-		<lastmod>2026-11-01T10:22:33+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/ru/esports/</loc>
-		<lastmod>2026-11-01T10:22:33+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/ru/find-party/</loc>
-		<lastmod>2026-11-01T10:22:33+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/ru/hardware-tech/</loc>
-		<lastmod>2026-11-01T10:22:33+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/ru/games-guides/</loc>
-		<lastmod>2026-11-01T10:22:33+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/ru/news-industry/</loc>
-		<lastmod>2026-11-01T10:22:33+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/en/games-en/</loc>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/ru/games/</loc>
 		<lastmod>2026-11-02T03:22:03+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/ru/games/</loc>
+		<loc>https://sneakysnail21.github.io/respawn-site/forums/forum/en/games-en/</loc>
 		<lastmod>2026-11-02T03:22:03+00:00</lastmod>
 	</url>
 </urlset>
