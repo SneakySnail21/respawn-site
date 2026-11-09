@@ -319,7 +319,7 @@
 		requestAnimationFrame(loop);
 	} else {
 		requestAnimationFrame(loop);
-		if (seen) quick();
+		if (seen || (() => { try { const c = navigator.connection || {}; return !!c.saveData || /^(slow-2g|2g|3g)$/.test(c.effectiveType || '') || (navigator.deviceMemory || 8) <= 2 || (navigator.hardwareConcurrency || 8) <= 2 || window.matchMedia('(max-width: 768px)').matches; } catch { return false; } })()) quick();
 		else if (visible()) play();
 		else waiting = true;
 	}
