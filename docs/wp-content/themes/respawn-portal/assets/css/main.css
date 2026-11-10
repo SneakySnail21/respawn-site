@@ -922,3 +922,41 @@ html[data-theme="light"] .row, html[data-theme="light"] .review-tile, html[data-
 .crumbs a:hover { color: var(--accent); text-decoration: underline; }
 .crumbs li[aria-current] { min-width: 0; color: var(--ink); }
 .crumbs li[aria-current] span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; display: block; }
+
+/* rsp-nav-fit: the 7-item nav plus actions does not fit between 821px and ~1200px, so it overlapped the search and language icons. Compact tier first, burger menu below 1180px. */
+@media (max-width: 1280px) and (min-width: 1181px) {
+	.site-header__bar { gap: 10px; }
+	.nav a { padding: 8px 7px; font-size: 13px; }
+}
+@media (max-width: 1180px) {
+	.site-header__bar { gap: 8px; }
+	.site-header__burger { display: inline-grid; margin-left: -8px; }
+	.nav { display: none; position: fixed; left: 0; right: 0; top: var(--header-h); bottom: 0; z-index: 49; padding: 10px var(--gutter) 30px; background: var(--bg); overflow-y: auto; border-top: 1px solid var(--line); }
+	.admin-bar .nav { top: calc(var(--header-h) + 32px); }
+	.nav-open .nav { display: block; height: calc(100vh - var(--header-h)); height: calc(100dvh - var(--header-h)); }
+	body.nav-open { overflow: hidden; }
+	.nav__list, .nav > ul { flex-direction: column; gap: 0; }
+	.nav a { padding: 12px 8px; font-size: 17px; border-radius: 0; }
+	.nav .current-menu-item > a { box-shadow: inset 3px 0 0 var(--accent); border-radius: 0; }
+	.nav .menu-item-has-children > a::after { float: right; margin-top: 8px; transition: transform .2s ease; }
+	.nav .menu-item-has-children.is-open > a::after { transform: translateY(2px) rotate(225deg); }
+	.nav .menu-item-has-children:not(.is-open) > .sub-menu { display: none; }
+	.nav .sub-menu { position: static; opacity: 1; visibility: visible; transform: none; min-width: 0; padding: 0 0 0 16px; border: 0; box-shadow: none; background: transparent; transition: none; }
+}
+
+/* rsp-mobile-fix: breadcrumb items no longer shrink over each other; only the current page title truncates. Bigger tap targets for forecast buttons on phones. */
+.crumbs li:not([aria-current]) { flex: none; }
+.crumbs li[aria-current] { flex: 1 1 0; }
+@media (max-width: 640px) {
+	.fc__btn { min-width: 44px; min-height: 44px; }
+}
+
+/* rsp-score-over: the editorial score is drawn over the cover (top right) on every card; the old badge next to the category stays for screen readers only. */
+.thumb .score--over { position: absolute; top: 8px; right: 8px; z-index: 3; min-width: 36px; height: 26px; padding: 0 8px; font-size: 14px; border-radius: 6px; outline: 2px solid rgba(11, 13, 17, .85); pointer-events: none; }
+.row__top .score, .lead .row__top .score { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+.lead .thumb .score--over { top: 16px; right: 16px; min-width: 46px; height: 34px; font-size: 18px; }
+.review-tile .thumb .score--over { display: none; }
+.review-tile > .score { left: auto; right: 20px; }
+@media (max-width: 640px) {
+	.row .thumb .score--over { top: 5px; right: 5px; min-width: 30px; height: 22px; padding: 0 6px; font-size: 12px; }
+}
