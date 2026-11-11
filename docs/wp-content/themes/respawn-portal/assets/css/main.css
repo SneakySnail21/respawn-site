@@ -360,8 +360,6 @@ a.thumb:hover .thumb__img { transform: scale(1.03); }
 .pros li::before, .cons li::before { position: absolute; left: 0; top: 0; font-weight: 800; }
 .pros li::before { content: "+"; color: var(--good); }
 .cons li::before { content: "−"; color: var(--bad); }
-.ai-note { margin: 20px 0 0; padding: 10px 14px; border-left: 2px solid var(--accent); background: var(--surface); color: var(--muted); font-size: 13px; }
-.ai-note a { color: var(--ink); text-decoration: underline; text-underline-offset: 3px; }
 .article__foot { display: grid; gap: 20px; }
 .sources { border: 1px solid var(--line); border-radius: var(--r-md); padding: 14px 18px; background: var(--surface); }
 .sources__title { font: 600 11px/1.2 var(--font-mono); text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin-bottom: 8px; }
