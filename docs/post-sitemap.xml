@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/all/</loc>
-		<lastmod>2026-11-14T02:14:08+00:00</lastmod>
+		<lastmod>2026-11-15T07:08:54+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/en/2026/10/27/fragline-launches-a-gaming-portal-and-forum/</loc>
@@ -171,13 +171,6 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/phantom-blade-zero-83760d-1024x576.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/en/2026/10/29/a-message-to-forum-users/</loc>
-		<lastmod>2026-10-29T09:59:14+00:00</lastmod>
-		<image:image>
-			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/cover-obrashchenie-k-polzovatelyam-foruma-585d57.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -419,13 +412,6 @@
 		<lastmod>2026-10-30T09:37:53+00:00</lastmod>
 		<image:image>
 			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/cover-fragline-nachinaet-rabotu-igrovoy-portal-6a3769.webp</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://sneakysnail21.github.io/respawn-site/2026/10/29/obrashchenie-k-polzovatelyam-foruma/</loc>
-		<lastmod>2026-10-30T14:02:13+00:00</lastmod>
-		<image:image>
-			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/cover-obrashchenie-k-polzovatelyam-foruma-585d57.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -3231,7 +3217,21 @@
 		</image:image>
 	</url>
 	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/en/2026/11/11/sony-cancels-fairgames-another-live-service-shooter-did-not-survive-to-release/</loc>
+		<lastmod>2026-11-11T06:07:30+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/fairgames-cancelled.webp</image:loc>
+		</image:image>
+	</url>
+	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/2026/11/11/gta-6-uzhe-rekordsmen-po-predzakazam-a-predzagruzka-nachalas-gotovte/</loc>
+		<lastmod>2026-11-11T06:07:58+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/gta-6-official-art.webp</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/en/2026/11/11/gta-6-is-already-a-pre-order-record-holder-and-preloading-has-started-get-212-gb-ready/</loc>
 		<lastmod>2026-11-11T06:07:58+00:00</lastmod>
 		<image:image>
 			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/gta-6-official-art.webp</image:loc>
@@ -3501,7 +3501,21 @@
 		</image:image>
 	</url>
 	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/en/2026/11/12/gta-6-will-run-at-30-fps-rockstar-has-put-a-full-stop-on-it/</loc>
+		<lastmod>2026-11-12T06:06:22+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/gta6-jason-lucia-bank.webp</image:loc>
+		</image:image>
+	</url>
+	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/2026/11/12/playstation-5-prodala-bolshe-100-millionov-konsoley/</loc>
+		<lastmod>2026-11-12T06:07:30+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/ps5-with-controller-scaled.webp</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/en/2026/11/12/playstation-5-has-sold-more-than-100-million-consoles/</loc>
 		<lastmod>2026-11-12T06:07:30+00:00</lastmod>
 		<image:image>
 			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/ps5-with-controller-scaled.webp</image:loc>
@@ -3637,7 +3651,21 @@
 		</image:image>
 	</url>
 	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/en/2026/11/13/less-than-a-week-to-gta-6-what-we-know-and-whether-30-fps-should-worry-you/</loc>
+		<lastmod>2026-11-13T06:06:42+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/gta-6-official-promo-scaled.webp</image:loc>
+		</image:image>
+	</url>
+	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/2026/11/13/dzhensen-khuang-ushel-iz-nvidia-chto-eto-znachit-dlya-videokart-i-igr/</loc>
+		<lastmod>2026-11-13T06:08:26+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/jensen-huang-nvidia.webp</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/en/2026/11/13/jensen-huang-leaves-nvidia-what-it-means-for-gpus-and-games/</loc>
 		<lastmod>2026-11-13T06:08:26+00:00</lastmod>
 		<image:image>
 			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/jensen-huang-nvidia.webp</image:loc>
@@ -3883,6 +3911,122 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/kibersport-a947b4-1024x576.webp</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/2026/11/14/b-dzhey-snova-v-dele-machinegames-ofitsialno-delaet-wolfenstein-3/</loc>
+		<lastmod>2026-11-14T06:06:51+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/wolfenstein-3-bj-blazkowicz.webp</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/2026/11/14/fonarik-i-korobka-gta-6-kak-mozhno-uvidet-kod-zagruzki-pryamo-v/</loc>
+		<lastmod>2026-11-14T06:07:58+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/gta-6-physical-code-issue-scaled.webp</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/2026/11/15/v-gta-6-budet-multserial-pro-rozovogo-alligatora-chto-za-makka-i/</loc>
+		<lastmod>2026-11-15T06:06:21+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/macca-friends.webp</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/2026/11/15/b-dzh-blaskovits-vozvrashchaetsya-machinegames-ofitsialno-delaet/</loc>
+		<lastmod>2026-11-15T06:07:04+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/wolfenstein-3-bj.webp</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/2026/11/15/slotbound-slot-mashina-kak-instrument-strategii-i-81-v-steam-u-igry/</loc>
+		<lastmod>2026-11-15T07:08:13+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/slotbound-09db0d.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/slotbound-9c6a53-1024x576.webp</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/en/2026/11/15/slotbound-a-slot-machine-as-a-strategy-tool-and-81-on-steam-for-a-one-person-game/</loc>
+		<lastmod>2026-11-15T07:08:13+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/slotbound-09db0d.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/slotbound-9c6a53-1024x576.webp</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/2026/11/15/pikmin-4-na-switch-2-84-na-metacritic-i-apgreyd-kotoryy-kritiki/</loc>
+		<lastmod>2026-11-15T07:08:25+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/obzory-233f34.webp</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/en/2026/11/15/pikmin-4-on-switch-2-84-on-metacritic-and-an-upgrade-critics-praise-for-visuals-but-not-for-the-new-mode/</loc>
+		<lastmod>2026-11-15T07:08:25+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/obzory-233f34.webp</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/2026/11/15/path-of-exile-3-30-dlya-novichkov-v-covens-of-umbra-poryadok/</loc>
+		<lastmod>2026-11-15T07:08:36+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/path-of-exile-f73210.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/path-of-exile-ad960d-1024x576.webp</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/en/2026/11/15/path-of-exile-3-30-for-beginners-in-covens-of-umbra-the-order-you-learn-the-systems-matters-more-than-the-build/</loc>
+		<lastmod>2026-11-15T07:08:36+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/path-of-exile-f73210.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/path-of-exile-ad960d-1024x576.webp</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/2026/11/15/obitel-zla-kreggera-pobedila-i-v-tsifre-pochemu-rezhisser-s-golosom/</loc>
+		<lastmod>2026-11-15T07:08:49+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/kino-i-serialy-po-igram-12eb5d.webp</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/en/2026/11/15/creggers-resident-evil-wins-digital-too-why-a-director-with-a-voice-beats-a-budget/</loc>
+		<lastmod>2026-11-15T07:08:49+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/kino-i-serialy-po-igram-12eb5d.webp</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/2026/11/15/shrek-2-remastered-remaster-za-27-vyuchil-urok-kotoryy-industriya-ne/</loc>
+		<lastmod>2026-11-15T07:08:54+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/dreamworks-shrek-2-remastered-a315eb.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/dreamworks-shrek-2-remastered-04b017-1024x576.webp</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/en/2026/11/15/shrek-2-remastered-a-27-remaster-learns-a-lesson-the-industry-never-keeps/</loc>
+		<lastmod>2026-11-15T07:08:54+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/dreamworks-shrek-2-remastered-a315eb.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/dreamworks-shrek-2-remastered-04b017-1024x576.webp</image:loc>
 		</image:image>
 	</url>
 </urlset>
