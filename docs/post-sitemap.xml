@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/all/</loc>
-		<lastmod>2026-11-15T12:04:45+00:00</lastmod>
+		<lastmod>2026-11-16T06:07:50+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/en/2026/10/27/fragline-launches-a-gaming-portal-and-forum/</loc>
@@ -4101,6 +4101,20 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/privateer-2-the-darkening-30th-anniversary-edition-c07b83-1024x576.webp</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/2026/11/16/slili-polnyy-treklist-alboma-gta-6-dua-lipa-lana-del-rey-i-eshche/</loc>
+		<lastmod>2026-11-16T06:06:54+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/gta6-album-featured.webp</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/2026/11/16/xbox-otmechaet-25-let-starye-zastavki-vernulis-a-wolfenstein-3/</loc>
+		<lastmod>2026-11-16T06:07:50+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/xbox-25-anniversary-magazine.webp</image:loc>
 		</image:image>
 	</url>
 </urlset>
