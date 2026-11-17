@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/all/</loc>
-		<lastmod>2026-11-16T06:07:50+00:00</lastmod>
+		<lastmod>2026-11-17T06:08:49+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/en/2026/10/27/fragline-launches-a-gaming-portal-and-forum/</loc>
@@ -4115,6 +4115,20 @@
 		<lastmod>2026-11-16T06:07:50+00:00</lastmod>
 		<image:image>
 			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/xbox-25-anniversary-magazine.webp</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/2026/11/17/predzakazy-gta-6-uzhe-perevalili-14-mlrd-pochti-vse-berut-ultimate/</loc>
+		<lastmod>2026-11-17T06:07:41+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/gta6-lucia-featured.webp</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/2026/11/17/novyy-xbox-project-helix-eto-konsol-a-ne-pk-chto-eto-znachit-dlya/</loc>
+		<lastmod>2026-11-17T06:08:49+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/project-helix-logo-dexerto.webp</image:loc>
 		</image:image>
 	</url>
 </urlset>
