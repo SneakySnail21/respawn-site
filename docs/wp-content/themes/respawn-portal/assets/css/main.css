@@ -958,3 +958,16 @@ html[data-theme="light"] .row, html[data-theme="light"] .review-tile, html[data-
 @media (max-width: 640px) {
 	.row .thumb .score--over { top: 5px; right: 5px; min-width: 30px; height: 22px; padding: 0 6px; font-size: 12px; }
 }
+
+/* rsp-card-hover-smooth: `.js [data-reveal]` replaced the card transition, so the green border on hover switched on instantly.
+   Keep the reveal fade, add a slow eased border/background/glow transition (no stagger delay on hover). */
+.js .row[data-reveal], .js .review-tile[data-reveal] {
+	transition-property: opacity, transform, border-color, background-color, box-shadow;
+	transition-duration: .5s, .5s, .6s, .6s, .6s;
+	transition-timing-function: cubic-bezier(.2, .7, .2, 1), cubic-bezier(.2, .7, .2, 1), cubic-bezier(.4, 0, .2, 1), cubic-bezier(.4, 0, .2, 1), cubic-bezier(.4, 0, .2, 1);
+	transition-delay: calc(var(--i, 0) * 50ms), calc(var(--i, 0) * 50ms), 0s, 0s, 0s;
+}
+.js .row[data-reveal].is-in, .js .review-tile[data-reveal].is-in { transition-delay: 0s; }
+@media (hover: hover) {
+	.row:hover, .review-tile:hover { box-shadow: 0 0 0 1px color-mix(in srgb, var(--accent) 18%, transparent), 0 8px 24px -12px color-mix(in srgb, var(--accent) 35%, transparent); }
+}
