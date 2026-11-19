@@ -48,6 +48,24 @@
 		track.addEventListener('scroll', upd, { passive: true });
 		window.addEventListener('resize', upd);
 		upd();
+
+		// Phones: no sideways swiping. One button shows the current section; tapping it opens every section as a wrapped list.
+		const cur = active ? active.firstChild.textContent.trim() : t('Вся лента', 'All stories');
+		const tog = document.createElement('button');
+		tog.type = 'button';
+		tog.className = 'rubricbar__toggle';
+		tog.setAttribute('aria-expanded', 'false');
+		tog.innerHTML = `<span class="rubricbar__label">${t('Рубрики', 'Sections')}</span><span class="rubricbar__cur"></span><svg class="rubricbar__chev" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>`;
+		$('.rubricbar__cur', tog).textContent = cur;
+		inner.prepend(tog);
+		const setOpen = (on) => {
+			bar.classList.toggle('is-open', on);
+			tog.setAttribute('aria-expanded', String(on));
+		};
+		tog.addEventListener('click', () => setOpen(!bar.classList.contains('is-open')));
+		document.addEventListener('click', (e) => { if (!bar.contains(e.target)) setOpen(false); });
+		document.addEventListener('keydown', (e) => { if (e.key === 'Escape') setOpen(false); });
+		window.addEventListener('scroll', () => { if (header && header.classList.contains('is-folded')) setOpen(false); }, { passive: true });
 	}
 
 	// Phone tab bar: the "Sections" sheet.
