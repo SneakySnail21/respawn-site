@@ -271,3 +271,11 @@ html[data-theme="light"] body.ui3 { --plate-bg: rgba(255, 255, 255, .86); }
 	.ui3 .feed-tabs { margin-left: 0; order: 3; }
 	.ui3 .section-head:has(.feed-tabs) { row-gap: 10px; }
 }
+
+/* ---------- Android app (web view with user agent "FraglineApp"): the app has its own bars ---------- */
+html.in-app .site-header, html.in-app .rubricbar, html.in-app .tabbar, html.in-app .sheet, html.in-app .cf,
+html.in-app .site-footer, html.in-app .to-top, html.in-app .progress, html.in-app .kgrid { display: none !important; }
+html.in-app body.ui3 { padding-bottom: 0 !important; }
+html.in-app .auth__google, html.in-app .googlesitekit-sign-in-with-google__frontend-output-button { display: none !important; }
+html.in-app .crumbs { display: none; }
+html.in-app .ui3 .site-main .layout, html.in-app .site-main .page-wrap { margin-block: 8px; }

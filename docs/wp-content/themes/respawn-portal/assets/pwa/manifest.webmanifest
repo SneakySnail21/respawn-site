@@ -1,0 +1,24 @@
+{
+  "name": "Fragline — игровые новости, обзоры и онлайн Steam",
+  "short_name": "Fragline",
+  "description": "Игровые новости, обзоры, радар онлайна Steam, форум, прогноз и дуэли игр.",
+  "lang": "ru",
+  "id": "/",
+  "start_url": "/?utm_source=app",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0B0D11",
+  "theme_color": "#0B0D11",
+  "categories": ["games", "entertainment", "news"],
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Радар", "url": "/radar/" },
+    { "name": "Форум", "url": "/forums/forum/ru/" },
+    { "name": "Прогноз", "url": "/forecast/" }
+  ]
+}
