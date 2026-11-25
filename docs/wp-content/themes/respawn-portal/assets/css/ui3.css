@@ -301,3 +301,12 @@ html.in-app .ui3 .site-main .layout, html.in-app .site-main .page-wrap { margin-
 	.ui3 .tabs { flex-wrap: wrap; overflow: visible; }
 	.ui3 .fl-fnav__chips { flex-wrap: wrap !important; overflow: visible !important; }
 }
+
+/* Mobile nav fit: single-column submenus, no horizontal overflow */
+@media (max-width: 820px) {
+	.ui3 .nav { overflow-x: hidden; padding-bottom: calc(var(--tabbar-h, 64px) + env(safe-area-inset-bottom, 0px) + 24px); }
+	.ui3 .nav .sub-menu, .ui3 .nav .sub-menu:has(> li:nth-child(5)) { display: block; grid-template-columns: none; min-width: 0; width: auto; max-width: 100%; margin: 2px 0 8px 8px; padding: 2px 0 2px 12px; background: transparent; border: 0; border-left: 2px solid var(--accent); border-radius: 0; box-shadow: none; }
+	.ui3 .nav .menu-item-has-children:not(.is-open) > .sub-menu { display: none; }
+	.ui3 .nav .sub-menu a { padding: 11px 8px; font-size: 15px; white-space: normal; }
+	.ui3 .nav .sub-menu .current-menu-item > a { border-radius: var(--r-sm); }
+}
