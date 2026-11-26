@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/all/</loc>
-		<lastmod>2026-11-25T12:04:46+00:00</lastmod>
+		<lastmod>2026-11-26T14:01:34+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://sneakysnail21.github.io/respawn-site/en/2026/10/27/fragline-launches-a-gaming-portal-and-forum/</loc>
@@ -4510,6 +4510,102 @@
 		<lastmod>2026-11-25T12:04:46+00:00</lastmod>
 		<image:image>
 			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/cover-angry-birds-movie-3-vyydet-23-dekabrya-r-a6b220.webp</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/2026/11/26/gothic-3-classic-uzhe-na-konsolyakh-stoit-li-vozvrashchatsya-v/</loc>
+		<lastmod>2026-11-26T06:06:53+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/gothic-3-classic-available.webp</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/2026/11/26/the-witcher-4-ostanetsya-multiplatformoy-cdpr-uspokoila-fanatov-posle/</loc>
+		<lastmod>2026-11-26T06:07:59+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/ciri-the-witcher-4.webp</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/2026/11/26/epic-games-store-razdaet-bread-fred-i-firestone-do-3-dekabrya-dalshe/</loc>
+		<lastmod>2026-11-26T13:58:28+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/bread-fred-bf786a.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/bread-fred-07cc9f-1024x576.webp</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/en/2026/11/26/epic-games-store-gives-away-bread-fred-and-firestone-until-december-3-strange-antiquities-is-next/</loc>
+		<lastmod>2026-11-26T13:58:28+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/bread-fred-bf786a.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/bread-fred-07cc9f-1024x576.webp</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/2026/11/26/raspisanie-agdq-2027-opublikovano-marafon-pereezzhaet-v-atlantu-i/</loc>
+		<lastmod>2026-11-26T14:00:14+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/rekordy-i-spidrany-d2170f.webp</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/en/2026/11/26/agdq-2027-schedule-is-out-the-marathon-moves-to-atlanta-and-starts-on-january-3/</loc>
+		<lastmod>2026-11-26T14:00:14+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/rekordy-i-spidrany-d2170f.webp</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/2026/11/26/sliv-pro-mmo-ot-riot-byvshiy-insayder-priznalsya-v-vydumke-merril/</loc>
+		<lastmod>2026-11-26T14:00:23+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/kibersport-942e85.webp</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/en/2026/11/26/riot-mmo-leak-unravels-source-reportedly-says-he-made-it-up-marc-merrill-calls-the-rumors-nonsense/</loc>
+		<lastmod>2026-11-26T14:00:23+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/10/kibersport-942e85.webp</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/2026/11/26/rayman-legends-retold-vyydet-3-dekabrya-na-pk-i-konsolyakh-ubisoft/</loc>
+		<lastmod>2026-11-26T14:01:27+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/rayman-legends-retold-cf2a0d.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/rayman-legends-retold-f897ee-1024x576.webp</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/en/2026/11/26/rayman-legends-retold-launches-december-3-on-pc-and-consoles-after-ubisoft-moved-it-from-october-1/</loc>
+		<lastmod>2026-11-26T14:01:27+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/rayman-legends-retold-cf2a0d.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/rayman-legends-retold-f897ee-1024x576.webp</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/2026/11/26/serial-god-of-war-amazon-podtverdila-tora-i-fey-no-datu-premery-po/</loc>
+		<lastmod>2026-11-26T14:01:34+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/kino-i-serialy-po-igram-c7ff5b.webp</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://sneakysnail21.github.io/respawn-site/en/2026/11/26/god-of-war-series-amazon-confirms-thor-and-faye-but-still-gives-no-premiere-date/</loc>
+		<lastmod>2026-11-26T14:01:34+00:00</lastmod>
+		<image:image>
+			<image:loc>https://sneakysnail21.github.io/respawn-site/wp-content/uploads/2026/11/kino-i-serialy-po-igram-c7ff5b.webp</image:loc>
 		</image:image>
 	</url>
 </urlset>
