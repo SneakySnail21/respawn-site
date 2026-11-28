@@ -24,6 +24,7 @@
 			const total = data.votes.up + data.votes.down + (data.votes.same || 0);
 			const up = total ? Math.round((data.votes.up * 100) / total) : 50;
 			row.classList.add('is-voted');
+			row.querySelector('.fc__result')?.classList.remove('fc__result--empty');
 			row.querySelector(`[data-fc-vote="${data.dir}"]`)?.classList.add('is-mine');
 			row.querySelector('.fc__bar i').style.width = up + '%';
 			row.querySelector('[data-fc-up]').textContent = up + '%';
